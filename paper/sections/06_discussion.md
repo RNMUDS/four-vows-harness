@@ -97,8 +97,9 @@ to improve judgment; across four models and every wording we tried, it
 never did. If judgment quality on contested cases matters, spend the
 tokens on a reflective procedure (stakeholders, self-audit, dissent,
 revise) and expect roughly fifty times the inference cost of a direct
-answer. Any ethics prompt, whether creed or procedure, can be expected to
-shift commonsense judgments toward strictness; decide whether that is drift or alignment
+answer. Sustained moral deliberation can be expected to shift commonsense
+judgments toward strictness, and static prompts may do so on some
+models; decide whether that is drift or alignment
 with reference to the population you serve rather than to a leaderboard.
 And when evaluating, report compliance and verdict-extraction procedures
 alongside accuracy: in our study, response-style artefacts could

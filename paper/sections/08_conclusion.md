@@ -7,8 +7,8 @@ procedure do different work. Stated as a system prompt, the vows
 improved nothing on any model or wording tested; executed as a
 four-stage reflective procedure, they improved judgment on real-life
 dilemmas, and the same procedure performed at least as well with the
-vows removed. Every form of ethical attention, meanwhile, shifted
-commonsense judgments toward strictness — a shift that the
+vows removed. Sustained ethical deliberation, meanwhile, shifted commonsense
+judgments toward strictness regardless of framing — a shift that the
 crowd-labelled benchmarks we studied record as error, even though the
 same conditions best matched annotator majorities on consensus items.
 

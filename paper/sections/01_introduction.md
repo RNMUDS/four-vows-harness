@@ -48,10 +48,11 @@ four benchmarks, over 27,000 judgments.
 
 We asked whether the vows would make models more ethical. The results instead address three narrower questions:
 
-- **RQ1 (effect):** Value-loading moved judgment, but every form of
-  ethical attention, Buddhist or not, shifted commonsense verdicts
-  toward strictness, and the shift is scored as *error* by benchmarks
-  whose labels encode US crowdworker leniency.
+- **RQ1 (effect):** Value-loading moved judgment, but sustained moral
+  deliberation of any framing, Buddhist or not, shifted commonsense
+  verdicts toward strictness (static prompts did so model-dependently),
+  and the shift is scored as *error* by benchmarks whose labels encode
+  US crowdworker leniency.
 - **RQ2 (mechanism):** On real-life dilemmas, the reflective procedure
   improved judgment while the creed never did, and the procedure
   worked at least as well with the vows removed, retaining only a
@@ -65,11 +66,12 @@ We asked whether the vows would make models more ethical. The results instead ad
   ethics prompts also change response *style* enough to fabricate
   large pseudo-effects when answer extraction goes unvalidated.
 
-Contributions. (1) The first implemented, empirically evaluated harness
+Contributions. (1) To our knowledge, the first implemented, empirically
+evaluated harness
 that renders a Buddhist liturgical formula as an executable reasoning
 procedure, with paraphrase and procedure-matched controls. (2) A
-content/procedure dissociation for value prompting: static creeds are
-accuracy-inert or harmful across four model families, while the same
+content/procedure dissociation for value prompting: no static creed
+significantly improved judgment on any model tested, while the same
 commitments executed as reflection can help, with the secular form of
 the procedure performing at least as well as any value-framed one. (3) Evidence that moral benchmarks register framework shifts as
 errors, with a decomposition that separates the two. (4) A methodological

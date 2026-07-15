@@ -1,7 +1,6 @@
 # Declarations
 
-**Funding.** [To confirm at submission: 上廣倫理財団 research grant if
-awarded; otherwise "This research received no external funding."]
+**Funding.** No funding was received for conducting this study.
 
 **Conflicts of interest.** The authors declare no competing interests.
 
@@ -24,6 +23,6 @@ reviewed and approved by the authors. Language models under study
 (Qwen 3.6, Gemma 3, GPT-OSS, Llama 3.3) are the objects of the research,
 not authors of it.
 
-**Author contributions (CRediT).** [Single author unless collaborators
-added: Conceptualization; Methodology; Software; Investigation; Formal
-analysis; Writing - original draft; Writing - review and editing.]
+**Author contributions (CRediT).** Ryota Nakamura: Conceptualization;
+Methodology; Software; Investigation; Formal analysis; Data curation;
+Writing - original draft; Writing - review and editing.

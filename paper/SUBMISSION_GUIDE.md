@@ -31,8 +31,8 @@
 3. アップロード: paper/latex/main.pdf（審査用PDF）または
    arxiv/main.tex 一式。初回投稿はPDFで十分
 4. Cover letter: paper/cover_letter.md を貼り付け
-5. Funding: 上廣の結果に応じて 10_statements.md の該当行を確定して
-   投稿画面にも同じ内容を入力
+5. Funding: 「No funding was received for conducting this study.」で
+   確定済み。投稿画面でも "No funding" を選択
 6. 推薦査読者を求められた場合の候補分野: AI ethics evaluation /
    machine ethics / Buddhist ethics and technology / LLM benchmark
    critique（具体名はご判断で）

@@ -9,33 +9,30 @@ can: by writing values into the context window. We ask whether values
 work better as statements possessed or as practices performed, taking
 the distinction from the Four Great Bodhisattva Vows (四弘誓願), a
 Mahayana liturgical formula that binds practitioners to open-ended
-practice rather than checkable rules. We translate the vows into a
-static system prompt and, alternatively, into a four-stage reflective
-procedure (enumerate affected parties; audit one's own reasoning for
-craving, aversion, and delusion; entertain dissenting perspectives;
-revise), and evaluate four open-weight model families (20-70B, run
-locally) across ETHICS, MoralChoice, SCRUPLES, and MMLU — over
-27,000 judgments — against generic-ethics, virtue-ethics, paraphrase,
-and procedure-matched secular controls. We report three findings. First,
-every form of ethical attention shifted commonsense judgments toward
-strictness (e.g., .06 to .29 false-"wrong" rate), a framework shift
-that US-crowd-labelled benchmarks can only score as error, while
-general capability (MMLU, two models tested) was largely unaffected. Second, value content and reasoning
-procedure dissociate: static creeds never improved judgment on any
-model or wording, whereas the reflective procedure raised real-life dilemma
-accuracy, significantly so on one of three models tested and
-numerically on the others — and the secular variant with the vows
-removed did at least as well as any value-framed one. Third,
-ethics prompts alter response style enough that unvalidated answer
-extraction fabricated pseudo-effects exceeding the true ones,
-motivating compliance and extraction reporting as standard practice.
-Value content steers the direction of judgment; reflective procedure
-supplies its quality; and crowd-labelled moral benchmarks of the kind
-we studied conflate the two. We
-release all code, prompts, and per-item records.
+practice rather than checkable rules. We implement the vows as a static
+system prompt and, alternatively, as a four-stage reflective procedure
+(enumerate affected parties; audit one's own reasoning; entertain
+dissenting perspectives; revise), and evaluate four open-weight model
+families (20-70B, run locally) on ETHICS, MoralChoice, SCRUPLES, and
+MMLU — over 27,000 judgments — against generic-ethics, virtue-ethics,
+paraphrase, and procedure-matched controls. We report three findings.
+First, sustained ethical deliberation of any framing shifted
+commonsense judgments toward strictness, a framework shift that
+US-crowd-labelled benchmarks record as error, while general capability
+was largely unaffected. Second, value content and reasoning procedure
+dissociate: no static prompt produced a significant improvement on any
+model tested, whereas the reflective procedure raised real-life dilemma
+accuracy — significantly on one of three models — and was never
+significantly outperformed by any value-framed variant. Third, ethics
+prompts alter response style enough that unvalidated answer extraction
+fabricated spurious effects larger than the true ones, motivating
+compliance and extraction reporting as standard practice. Value content
+steers the direction of judgment; reflective procedure supplies its
+quality; crowd-labelled benchmarks of the kind we studied conflate the
+two. Code, prompts, and per-item records are released.
 
 **Keywords:** AI ethics; large language models; Buddhist ethics; moral
-benchmarks; prompting; reflection; value alignment; open-weight models
+benchmarks; value alignment; reflective reasoning
 # 1. Introduction
 
 Capable language models can now be run locally from openly released
@@ -86,10 +83,11 @@ four benchmarks, over 27,000 judgments.
 
 We asked whether the vows would make models more ethical. The results instead address three narrower questions:
 
-- **RQ1 (effect):** Value-loading moved judgment, but every form of
-  ethical attention, Buddhist or not, shifted commonsense verdicts
-  toward strictness, and the shift is scored as *error* by benchmarks
-  whose labels encode US crowdworker leniency.
+- **RQ1 (effect):** Value-loading moved judgment, but sustained moral
+  deliberation of any framing, Buddhist or not, shifted commonsense
+  verdicts toward strictness (static prompts did so model-dependently),
+  and the shift is scored as *error* by benchmarks whose labels encode
+  US crowdworker leniency.
 - **RQ2 (mechanism):** On real-life dilemmas, the reflective procedure
   improved judgment while the creed never did, and the procedure
   worked at least as well with the vows removed, retaining only a
@@ -103,11 +101,12 @@ We asked whether the vows would make models more ethical. The results instead ad
   ethics prompts also change response *style* enough to fabricate
   large pseudo-effects when answer extraction goes unvalidated.
 
-Contributions. (1) The first implemented, empirically evaluated harness
+Contributions. (1) To our knowledge, the first implemented, empirically
+evaluated harness
 that renders a Buddhist liturgical formula as an executable reasoning
 procedure, with paraphrase and procedure-matched controls. (2) A
-content/procedure dissociation for value prompting: static creeds are
-accuracy-inert or harmful across four model families, while the same
+content/procedure dissociation for value prompting: no static creed
+significantly improved judgment on any model tested, while the same
 commitments executed as reflection can help, with the secular form of
 the procedure performing at least as well as any value-framed one. (3) Evidence that moral benchmarks register framework shifts as
 errors, with a decomposition that separates the two. (4) A methodological
@@ -667,8 +666,9 @@ to improve judgment; across four models and every wording we tried, it
 never did. If judgment quality on contested cases matters, spend the
 tokens on a reflective procedure (stakeholders, self-audit, dissent,
 revise) and expect roughly fifty times the inference cost of a direct
-answer. Any ethics prompt, whether creed or procedure, can be expected to
-shift commonsense judgments toward strictness; decide whether that is drift or alignment
+answer. Sustained moral deliberation can be expected to shift commonsense
+judgments toward strictness, and static prompts may do so on some
+models; decide whether that is drift or alignment
 with reference to the population you serve rather than to a leaderboard.
 And when evaluating, report compliance and verdict-extraction procedures
 alongside accuracy: in our study, response-style artefacts could
@@ -735,8 +735,8 @@ procedure do different work. Stated as a system prompt, the vows
 improved nothing on any model or wording tested; executed as a
 four-stage reflective procedure, they improved judgment on real-life
 dilemmas, and the same procedure performed at least as well with the
-vows removed. Every form of ethical attention, meanwhile, shifted
-commonsense judgments toward strictness — a shift that the
+vows removed. Sustained ethical deliberation, meanwhile, shifted commonsense
+judgments toward strictness regardless of framing — a shift that the
 crowd-labelled benchmarks we studied record as error, even though the
 same conditions best matched annotator majorities on consensus items.
 
@@ -757,8 +757,7 @@ and testing whether the content/procedure dissociation survives
 fine-tuning.
 # Declarations
 
-**Funding.** [To confirm at submission: 上廣倫理財団 research grant if
-awarded; otherwise "This research received no external funding."]
+**Funding.** No funding was received for conducting this study.
 
 **Conflicts of interest.** The authors declare no competing interests.
 
@@ -781,9 +780,9 @@ reviewed and approved by the authors. Language models under study
 (Qwen 3.6, Gemma 3, GPT-OSS, Llama 3.3) are the objects of the research,
 not authors of it.
 
-**Author contributions (CRediT).** [Single author unless collaborators
-added: Conceptualization; Methodology; Software; Investigation; Formal
-analysis; Writing - original draft; Writing - review and editing.]
+**Author contributions (CRediT).** Ryota Nakamura: Conceptualization;
+Methodology; Software; Investigation; Formal analysis; Data curation;
+Writing - original draft; Writing - review and editing.
 # References (APA 7)
 
 Bai, Y., Kadavath, S., Kundu, S., Askell, A., Kernion, J., Jones, A., ...

@@ -9,30 +9,27 @@ can: by writing values into the context window. We ask whether values
 work better as statements possessed or as practices performed, taking
 the distinction from the Four Great Bodhisattva Vows (四弘誓願), a
 Mahayana liturgical formula that binds practitioners to open-ended
-practice rather than checkable rules. We translate the vows into a
-static system prompt and, alternatively, into a four-stage reflective
-procedure (enumerate affected parties; audit one's own reasoning for
-craving, aversion, and delusion; entertain dissenting perspectives;
-revise), and evaluate four open-weight model families (20-70B, run
-locally) across ETHICS, MoralChoice, SCRUPLES, and MMLU — over
-27,000 judgments — against generic-ethics, virtue-ethics, paraphrase,
-and procedure-matched secular controls. We report three findings. First,
-every form of ethical attention shifted commonsense judgments toward
-strictness (e.g., .06 to .29 false-"wrong" rate), a framework shift
-that US-crowd-labelled benchmarks can only score as error, while
-general capability (MMLU, two models tested) was largely unaffected. Second, value content and reasoning
-procedure dissociate: static creeds never improved judgment on any
-model or wording, whereas the reflective procedure raised real-life dilemma
-accuracy, significantly so on one of three models tested and
-numerically on the others — and the secular variant with the vows
-removed did at least as well as any value-framed one. Third,
-ethics prompts alter response style enough that unvalidated answer
-extraction fabricated pseudo-effects exceeding the true ones,
-motivating compliance and extraction reporting as standard practice.
-Value content steers the direction of judgment; reflective procedure
-supplies its quality; and crowd-labelled moral benchmarks of the kind
-we studied conflate the two. We
-release all code, prompts, and per-item records.
+practice rather than checkable rules. We implement the vows as a static
+system prompt and, alternatively, as a four-stage reflective procedure
+(enumerate affected parties; audit one's own reasoning; entertain
+dissenting perspectives; revise), and evaluate four open-weight model
+families (20-70B, run locally) on ETHICS, MoralChoice, SCRUPLES, and
+MMLU — over 27,000 judgments — against generic-ethics, virtue-ethics,
+paraphrase, and procedure-matched controls. We report three findings.
+First, sustained ethical deliberation of any framing shifted
+commonsense judgments toward strictness, a framework shift that
+US-crowd-labelled benchmarks record as error, while general capability
+was largely unaffected. Second, value content and reasoning procedure
+dissociate: no static prompt produced a significant improvement on any
+model tested, whereas the reflective procedure raised real-life dilemma
+accuracy — significantly on one of three models — and was never
+significantly outperformed by any value-framed variant. Third, ethics
+prompts alter response style enough that unvalidated answer extraction
+fabricated spurious effects larger than the true ones, motivating
+compliance and extraction reporting as standard practice. Value content
+steers the direction of judgment; reflective procedure supplies its
+quality; crowd-labelled benchmarks of the kind we studied conflate the
+two. Code, prompts, and per-item records are released.
 
 **Keywords:** AI ethics; large language models; Buddhist ethics; moral
-benchmarks; prompting; reflection; value alignment; open-weight models
+benchmarks; value alignment; reflective reasoning
