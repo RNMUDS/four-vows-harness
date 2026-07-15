@@ -6,9 +6,8 @@ The dissociation at the centre of our results assigns different jobs to
 the two things a value harness contains. The *content* of the harness,
 whether vows, virtues, or a bare instruction to be ethical, changes which
 morality the model enacts: attention to ethics of any flavour moved
-judgments toward strictness, and the items that flipped wore the flavour
-of the framing applied, from netted butterflies to broadcast lunch
-companions. The *procedure*, the cycle of reacting, enumerating stakeholders,
+judgments toward strictness, and the items that flipped reflected the framing
+applied (Section 5.1). The *procedure*, the cycle of reacting, enumerating stakeholders,
 inspecting one's own distortions, entertaining dissent, and revising,
 changes how well the model judges: on real-life dilemmas the secular
 form of the loop scored highest on two of three models (significantly
@@ -17,7 +16,7 @@ ever beat it. To be explicit: our data do not show that Buddhist
 content improves moral judgment. They show that a reflective procedure
 can, whatever it is practised in the name of; the vows' distinctive
 contribution is directional, and it is the benchmarks' reaction to that
-direction that carries the paper's second lesson.
+direction that constitutes the paper's second finding.
 
 A single-label accuracy score cannot see this structure. It records
 the strictness shift as error (because its labels encode one
@@ -42,22 +41,22 @@ That static value injection never helped (significantly harmful on one
 model, inert on the others, and below baseline under every rewording
 tested) while the same commitments embedded in a procedure were benign
 or helpful, is the pattern a virtue-ethical reading would predict: moral
-capacity is exercised in practice, not possessed as principle (Vallor, 2016). The mechanism our transcripts suggest is prosaic. A static creed
+capacity is exercised in practice, not possessed as principle (Vallor, 2016). The mechanism suggested by the transcripts is straightforward. A static creed
 acts as a standing bias on generation: it tilts the answer while adding
 no information the answer could use. The loop converts the same
 commitments into *evidence*. By the time the final verdict is requested,
 the context holds an enumeration of affected parties, a self-audit, and
 two dissenting perspectives, and the verdict is conditioned on all of
 it. That the secular loop matches or beats the value-framed loops
-suggests the evidence is doing the work, and the framing at best rides
-along: an interpretation the strictness data corroborate from the
+suggests the evidence is doing the work, and the framing contributes little: an interpretation the strictness data corroborate from the
 other side, since sustained deliberation shifted commonsense judgments
 even with no values named at all.
 
 ## 6.3 What may and may not be claimed about East and West
 
-It is tempting to headline these results as "Buddhist AI disagrees with
-Western benchmarks." Two considerations restrain us. First, the
+These results might be summarized as showing that "Buddhist AI
+disagrees with Western benchmarks." Two considerations argue against
+that reading. First, the
 loop-content controls showed that the aggregate strictness shift follows
 ethical attention generally, not Buddhist content specifically; the
 doctrinal signature lives in which items flip, which is qualitative
@@ -80,10 +79,9 @@ The content/procedure dissociation maps onto a distinction that the
 alignment literature draws conceptually but rarely tests empirically:
 between aligning a system to some *substantive* set of values and
 equipping it with a *procedure* whose fairness or thoroughness can be
-endorsed from many value positions (Gabriel, 2020). Our results are a
-small empirical brief for the procedural side. Substantive loading, in
-the static form available to every operator today, bought no measurable
-quality and imposed a direction that only some populations would
+endorsed from many value positions (Gabriel, 2020). Our results offer modest empirical support for the procedural side. Substantive loading, in
+the static form available to every operator today, produced no measurable quality
+gain and imposed a direction that only some populations would
 endorse; the procedure improved judgment while remaining, in itself,
 neutral about which morality supplies the stakeholders' weights. This
 is also where the results touch pluralistic alignment (Sorensen et al.,
@@ -91,32 +89,32 @@ is also where the results touch pluralistic alignment (Sorensen et al.,
 entertains dissent before answering is a plausible substrate for
 Overton-style pluralism — it generates the perspectives a pluralistic
 answer must survey — whereas a model with a creed in its system prompt
-has simply been moved to one point in value space. If alignment must
-serve many moralities at once, our data suggest the leverage is in what
-models are made to *do* before answering, not in what they are told to
-*be*.
+has been moved to one point in value space. If alignment must
+serve many moralities at once, our data suggest that the more effective lever is the procedure a
+model executes before answering rather than the values it is
+instructed to hold.
 
 ## 6.5 Practical guidance
 
 For practitioners who value-load open-weight models, the results reduce
-to four rules of thumb. Do not paste a creed into the system prompt and
-expect improvement; across four models and every wording we tried, it
-never helped. If judgment quality on contested cases matters, spend the
+to four rules of thumb. Stating values in the system prompt should not, by itself, be expected
+to improve judgment; across four models and every wording we tried, it
+never did. If judgment quality on contested cases matters, spend the
 tokens on a reflective procedure (stakeholders, self-audit, dissent,
 revise) and expect roughly fifty times the inference cost of a direct
-answer. Expect any ethics prompt, creed or procedure, to stricten
-commonsense judgments, and decide whether that is drift or alignment
+answer. Any ethics prompt, whether creed or procedure, can be expected to
+shift commonsense judgments toward strictness; decide whether that is drift or alignment
 with reference to the population you serve rather than to a leaderboard.
 And when evaluating, report compliance and verdict-extraction procedures
 alongside accuracy: in our study, response-style artefacts could
-fabricate condition effects several times larger than the real ones
-until validation caught them.
+produce spurious condition effects several times larger than the real
+ones until validation identified them.
 
-The cost multiplier invites an obvious continuation: distilling the
+The cost multiplier suggests a direct continuation: distilling the
 procedure into the weights. Our loop transcripts constitute training
 data for exactly this, and process distillation, fine-tuning on
 deliberations rather than on creeds, would test whether the
 content/procedure dissociation survives the move from context to
-parameters. We leave it to future work, with the present study's
-prediction on record: tuning on the creed should reproduce its
-inertness; tuning on the practice should carry the gains.
+parameters. We leave it to future work, noting the prediction this study implies:
+tuning on the creed should reproduce its inertness; tuning on the
+practice should preserve the gains.

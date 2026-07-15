@@ -20,8 +20,7 @@ Separately, a growing literature shows that structured deliberation —
 self-critique, multi-perspective debate, reflection before answering —
 improves language-model reasoning on tasks with verifiable answers
 (Madaan et al., 2023; Du et al., 2024). Our loop conditions import that insight into the moral
-domain, where "improvement" itself becomes contested, which is precisely
-what makes the import informative.
+domain, where "improvement" itself becomes contested, which is what makes the transfer informative.
 
 ## 2.2 Moral benchmarks and whose morality they encode
 
@@ -68,5 +67,4 @@ checked (Dayal, 1932). Section 3 argues that this makes them uniquely
 suited to the present experiment, because an aspiration, unlike a rule,
 must be *practised* — and practising, in a language model, is something
 a prompt can either fake (by stating the aspiration) or approximate (by
-executing it). The distance between those two is exactly what our
-conditions measure.
+executing it). Our conditions measure the distance between the two.

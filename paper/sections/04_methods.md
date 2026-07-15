@@ -8,10 +8,10 @@ independent model families and 20-70B parameters: Qwen 3.6 35B, Gemma 3
 ollama with the default 4-bit quantization, on consumer and workstation
 hardware (an Apple M4 Max with 64 GB of unified memory, an NVIDIA DGX
 Spark, a single RTX 5090 workstation, and an Apple Mac Studio with 256 GB
-of unified memory). This choice is deliberate. Value-loading through
-prompting is the only intervention available to most practitioners who
-deploy open-weight models on their own infrastructure, so the population
-of models we study is the population the question is about. Quantization
+of unified memory). This choice reflects the study's motivating population: value-loading
+through prompting is the only intervention available to most
+practitioners who deploy open-weight models on their own
+infrastructure. Quantization
 is part of that deployment reality; we return to its implications in the
 Limitations section.
 

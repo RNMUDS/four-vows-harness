@@ -16,7 +16,7 @@ craving, aversion, and delusion; entertain dissenting perspectives;
 revise), and evaluate four open-weight model families (20-70B, run
 locally) across ETHICS, MoralChoice, SCRUPLES, and MMLU — over
 27,000 judgments — against generic-ethics, virtue-ethics, paraphrase,
-and procedure-matched secular controls. Three findings emerge. First,
+and procedure-matched secular controls. We report three findings. First,
 every form of ethical attention shifted commonsense judgments toward
 strictness (e.g., .06 to .29 false-"wrong" rate), a framework shift
 that US-crowd-labelled benchmarks can only score as error, while
@@ -38,16 +38,16 @@ release all code, prompts, and per-item records.
 benchmarks; prompting; reflection; value alignment; open-weight models
 # 1. Introduction
 
-Anyone can now run a capable language model on a desk. The weights are
-open, the hardware is consumer-grade, and the operator answers to no
-platform's alignment team. For this rapidly growing population of
+Capable language models can now be run locally from openly released
+weights on consumer hardware, by operators subject to no platform
+provider's alignment process. For this rapidly growing population of
 deployments, the entire apparatus of value alignment reduces to what can
 be written into a context window: if the operator of a local model wants
 it to be good, they must *tell* it to be good. What, then, should they
 write?
 
-The intuitive answer, state your values, has a long pedigree and a
-short reach. Values enter system prompts as creeds: lists of principles,
+The intuitive answer — stating one's values — is long established but
+of limited reach. Values enter system prompts as creeds: lists of principles,
 personas of virtuous character, instructions to act ethically. Prior
 work shows such statements do change moral behaviour (Bai et al., 2022;
 Scherrer et al., 2023), but
@@ -81,14 +81,14 @@ reflection procedure (enumerate the affected parties, audit one's own
 reasoning for craving, aversion, and delusion, entertain dissenting
 moral perspectives, then revise) executed before every answer. Against
 these we run three controls that most studies omit: a generic
-be-ethical prompt, a Western virtue-ethics prompt, and, decisively, the
-*same four-stage procedure with the vows removed*, so that value content
-and reasoning procedure are priced separately. Four model families
+be-ethical prompt, a Western virtue-ethics prompt, and the *same
+four-stage procedure with the vows removed*, which allows value content
+and reasoning procedure to be estimated separately. Four model families
 (20-70B parameters, run locally as their operators would run them),
 four benchmarks, over 27,000 judgments.
 
-We asked whether the vows would make models more ethical. The data
-answered three sharper questions:
+We asked whether the vows would make models more ethical. The results
+are better organized as answers to three narrower questions:
 
 - **RQ1 (effect):** Value-loading moved judgment, but every form of
   ethical attention, Buddhist or not, shifted commonsense verdicts
@@ -146,8 +146,7 @@ Separately, a growing literature shows that structured deliberation —
 self-critique, multi-perspective debate, reflection before answering —
 improves language-model reasoning on tasks with verifiable answers
 (Madaan et al., 2023; Du et al., 2024). Our loop conditions import that insight into the moral
-domain, where "improvement" itself becomes contested, which is precisely
-what makes the import informative.
+domain, where "improvement" itself becomes contested, which is what makes the transfer informative.
 
 ## 2.2 Moral benchmarks and whose morality they encode
 
@@ -194,8 +193,7 @@ checked (Dayal, 1932). Section 3 argues that this makes them uniquely
 suited to the present experiment, because an aspiration, unlike a rule,
 must be *practised* — and practising, in a language model, is something
 a prompt can either fake (by stating the aspiration) or approximate (by
-executing it). The distance between those two is exactly what our
-conditions measure.
+executing it). Our conditions measure the distance between the two.
 # 3. The Four Vows Harness
 
 ## 3.1 Why these vows
@@ -211,13 +209,10 @@ daily across East Asian Mahayana traditions:
 Two properties make them a sharper instrument for this study than a list
 of precepts would be. First, they are *aspirational commitments rather
 than rules*: each names an inexhaustible object (all beings, all
-delusions, all teachings, an unsurpassable way) and binds the practitioner
-to a direction rather than a boundary. A rule can be checked; a vow can
-only be practised. Second, they already have the shape of a procedure.
+delusions, all teachings, an unsurpassable way) and binds the practitioner to a direction rather than a boundary. Second, they already have the shape of a procedure.
 Read in order, they describe a movement of attention — outward to those
 affected, inward to one's own distortions, sideways to other
-understandings, and forward toward a better answer — that maps naturally
-onto a sequence of reasoning steps. The harness makes that mapping
+understandings, and forward toward a better answer — that corresponds to a sequence of reasoning steps. The harness makes that mapping
 explicit.
 
 ## 3.2 From vow to operation
@@ -244,8 +239,8 @@ Limitations.
 
 ## 3.3 Two implementations
 
-The harness exists in two forms precisely because the difference between
-them is the experiment.
+The harness exists in two forms because the difference between them is
+the object of the experiment.
 
 **Static** (vows as content): the vows and their glosses are placed in
 the system prompt, and the model answers the task question directly. This
@@ -276,10 +271,10 @@ independent model families and 20-70B parameters: Qwen 3.6 35B, Gemma 3
 ollama with the default 4-bit quantization, on consumer and workstation
 hardware (an Apple M4 Max with 64 GB of unified memory, an NVIDIA DGX
 Spark, a single RTX 5090 workstation, and an Apple Mac Studio with 256 GB
-of unified memory). This choice is deliberate. Value-loading through
-prompting is the only intervention available to most practitioners who
-deploy open-weight models on their own infrastructure, so the population
-of models we study is the population the question is about. Quantization
+of unified memory). This choice reflects the study's motivating population: value-loading
+through prompting is the only intervention available to most
+practitioners who deploy open-weight models on their own
+infrastructure. Quantization
 is part of that deployment reality; we return to its implications in the
 Limitations section.
 
@@ -405,7 +400,7 @@ temperature.
 # 5. Results
 
 Table 2 reports accuracy for every model x benchmark x condition cell
-with bootstrap confidence intervals; this section walks through the four
+with bootstrap confidence intervals; this section presents the four
 findings, using paired McNemar tests for all contrasts. All numbers
 reflect the final, validated answer-extraction pass described in
 Section 4.4 and Appendix C.
@@ -419,14 +414,14 @@ loop (test: p = .017; hard: p = .0018). Gemma 3 showed a smaller loop-
 only reduction (test: p = .035); Llama 3.3 was numerically lower without
 reaching significance.
 
-The direction of the errors carries the finding. Where accuracy fell, it
+The direction of the errors is the more informative result. Where accuracy fell, it
 fell almost entirely on the strict side: the rate at which crowd-
 labelled *acceptable* actions were judged wrong rose under the vow loop
 from .060 to .287 for GPT-OSS and from .067 to .147 for Qwen (both hard
 split), and from .230 to .300 for Gemma (test split), while the
 opposite error stayed flat or fell (full strictness tables for both
-splits: Appendix B). The items that flipped read like a catalogue of
-precept concerns: trapping a butterfly in a net, releasing doves at a
+splits: Appendix B). The items that flipped correspond closely to precept
+concerns: trapping a butterfly in a net, releasing doves at a
 wedding (non-harm, 不殺生), borrowing a neighbour's mower unasked (not
 taking what is not given, 不与取), broadcasting whom a business partner
 had lunch with (right speech, 正語). We note below that the
@@ -474,8 +469,8 @@ outperformed the secular procedure anywhere. Where the procedure
 helps, it supplies the gain; the value content adds nothing detectable
 to accuracy.
 
-Alignment with the human vote distribution tells the same story from the
-annotators' side: on consensus items the Qwen loops matched the crowd at
+Alignment with the human vote distribution shows the same pattern from
+the annotators' side: on consensus items the Qwen loops matched the crowd at
 .79-.81 vote-share against a .768 baseline while the static prompt fell
 to .626; on controversial items every condition sat near .51-.56, as it
 must when the crowd itself is split.
@@ -492,9 +487,8 @@ MMLU (run on Qwen and Gemma) is close to the same pattern. Qwen scored
 significant movement). Gemma's static prompt was likewise inert (.747
 vs .757), but its vow loop cost .06 (.697, p = .036) — a small but
 real deliberation tax on this model, consistent with its loop-driven
-strictness shift. The static creed, whatever else it fails to do, does
-not damage competence; sustained deliberation can, mildly,
-model-dependently.
+strictness shift. The static prompt does not damage competence; sustained deliberation
+can, mildly and model-dependently.
 
 ## 5.4 Robustness (Appendix B)
 
@@ -509,8 +503,8 @@ reversed a reported direction.
 
 ## 5.5 Compliance, extraction, and cost (F4)
 
-Two response-style phenomena would masquerade as moral effects if
-unreported. First, non-compliance: GPT-OSS under the virtue prompt
+Two response-style phenomena would be mistaken for moral effects if
+left unreported. First, non-compliance: GPT-OSS under the virtue prompt
 answered only 54% of SCRUPLES items, returning counter-questions or
 refusals; restricted to answered items, its accuracy (.699) matched the
 baseline condition's answered-subset accuracy (.707; .693 with
@@ -519,9 +513,8 @@ what models concluded but *how they formatted conclusions*: Gemma in particular 
 answer-first-then-explain layouts or opened with prose in which the
 article "A" is easily mistaken for an option letter by a naive parser
 (all cells materially affected were Gemma's; every other model's
-deltas were below two points, Appendix C). In early passes these artefacts manufactured
-condition "effects" of up to 32 accuracy points before validation
-caught them (Appendix C tabulates all affected cells). We therefore treat verdict extraction as a threat to
+deltas were below two points, Appendix C). In early analysis passes these artefacts produced spurious condition
+effects of up to 32 accuracy points before validation identified them (Appendix C tabulates all affected cells). We therefore treat verdict extraction as a threat to
 validity in its own right: our final parser resolves explicit answer
 markers first, restricts line heuristics to short verdict lines,
 disambiguates article uses of "A", is covered by a unit-test suite
@@ -529,12 +522,12 @@ included in the release, and was re-applied to every stored raw response
 (Appendix C). We recommend that ethics-prompting studies report
 compliance and extraction procedures as routinely as accuracy.
 
-The reflective loop costs what deliberation costs: median 4,764 tokens
+The reflective loop is costly: median 4,764 tokens
 and 12.7 s per item against 83 tokens and 0.6 s for baseline (a 57x
 token multiplier at 5 calls per item); static prompts cost 4.9x baseline
 tokens. Whether the SCRUPLES gains justify a 57x inference budget is a
-deployment decision; Section 6 discusses distillation of the procedure
-as the obvious next step.
+deployment decision; Section 6 notes distillation of the procedure
+as a direction for future work.
 # Table 2. Accuracy by model, benchmark, and primary condition
 
 Cells: accuracy [95% bootstrap CI] (n). Dash: cell not run
@@ -589,9 +582,8 @@ The dissociation at the centre of our results assigns different jobs to
 the two things a value harness contains. The *content* of the harness,
 whether vows, virtues, or a bare instruction to be ethical, changes which
 morality the model enacts: attention to ethics of any flavour moved
-judgments toward strictness, and the items that flipped wore the flavour
-of the framing applied, from netted butterflies to broadcast lunch
-companions. The *procedure*, the cycle of reacting, enumerating stakeholders,
+judgments toward strictness, and the items that flipped reflected the framing
+applied (Section 5.1). The *procedure*, the cycle of reacting, enumerating stakeholders,
 inspecting one's own distortions, entertaining dissent, and revising,
 changes how well the model judges: on real-life dilemmas the secular
 form of the loop scored highest on two of three models (significantly
@@ -600,7 +592,7 @@ ever beat it. To be explicit: our data do not show that Buddhist
 content improves moral judgment. They show that a reflective procedure
 can, whatever it is practised in the name of; the vows' distinctive
 contribution is directional, and it is the benchmarks' reaction to that
-direction that carries the paper's second lesson.
+direction that constitutes the paper's second finding.
 
 A single-label accuracy score cannot see this structure. It records
 the strictness shift as error (because its labels encode one
@@ -625,22 +617,22 @@ That static value injection never helped (significantly harmful on one
 model, inert on the others, and below baseline under every rewording
 tested) while the same commitments embedded in a procedure were benign
 or helpful, is the pattern a virtue-ethical reading would predict: moral
-capacity is exercised in practice, not possessed as principle (Vallor, 2016). The mechanism our transcripts suggest is prosaic. A static creed
+capacity is exercised in practice, not possessed as principle (Vallor, 2016). The mechanism suggested by the transcripts is straightforward. A static creed
 acts as a standing bias on generation: it tilts the answer while adding
 no information the answer could use. The loop converts the same
 commitments into *evidence*. By the time the final verdict is requested,
 the context holds an enumeration of affected parties, a self-audit, and
 two dissenting perspectives, and the verdict is conditioned on all of
 it. That the secular loop matches or beats the value-framed loops
-suggests the evidence is doing the work, and the framing at best rides
-along: an interpretation the strictness data corroborate from the
+suggests the evidence is doing the work, and the framing contributes little: an interpretation the strictness data corroborate from the
 other side, since sustained deliberation shifted commonsense judgments
 even with no values named at all.
 
 ## 6.3 What may and may not be claimed about East and West
 
-It is tempting to headline these results as "Buddhist AI disagrees with
-Western benchmarks." Two considerations restrain us. First, the
+These results might be summarized as showing that "Buddhist AI
+disagrees with Western benchmarks." Two considerations argue against
+that reading. First, the
 loop-content controls showed that the aggregate strictness shift follows
 ethical attention generally, not Buddhist content specifically; the
 doctrinal signature lives in which items flip, which is qualitative
@@ -663,10 +655,9 @@ The content/procedure dissociation maps onto a distinction that the
 alignment literature draws conceptually but rarely tests empirically:
 between aligning a system to some *substantive* set of values and
 equipping it with a *procedure* whose fairness or thoroughness can be
-endorsed from many value positions (Gabriel, 2020). Our results are a
-small empirical brief for the procedural side. Substantive loading, in
-the static form available to every operator today, bought no measurable
-quality and imposed a direction that only some populations would
+endorsed from many value positions (Gabriel, 2020). Our results offer modest empirical support for the procedural side. Substantive loading, in
+the static form available to every operator today, produced no measurable quality
+gain and imposed a direction that only some populations would
 endorse; the procedure improved judgment while remaining, in itself,
 neutral about which morality supplies the stakeholders' weights. This
 is also where the results touch pluralistic alignment (Sorensen et al.,
@@ -674,59 +665,58 @@ is also where the results touch pluralistic alignment (Sorensen et al.,
 entertains dissent before answering is a plausible substrate for
 Overton-style pluralism — it generates the perspectives a pluralistic
 answer must survey — whereas a model with a creed in its system prompt
-has simply been moved to one point in value space. If alignment must
-serve many moralities at once, our data suggest the leverage is in what
-models are made to *do* before answering, not in what they are told to
-*be*.
+has been moved to one point in value space. If alignment must
+serve many moralities at once, our data suggest that the more effective lever is the procedure a
+model executes before answering rather than the values it is
+instructed to hold.
 
 ## 6.5 Practical guidance
 
 For practitioners who value-load open-weight models, the results reduce
-to four rules of thumb. Do not paste a creed into the system prompt and
-expect improvement; across four models and every wording we tried, it
-never helped. If judgment quality on contested cases matters, spend the
+to four rules of thumb. Stating values in the system prompt should not, by itself, be expected
+to improve judgment; across four models and every wording we tried, it
+never did. If judgment quality on contested cases matters, spend the
 tokens on a reflective procedure (stakeholders, self-audit, dissent,
 revise) and expect roughly fifty times the inference cost of a direct
-answer. Expect any ethics prompt, creed or procedure, to stricten
-commonsense judgments, and decide whether that is drift or alignment
+answer. Any ethics prompt, whether creed or procedure, can be expected to
+shift commonsense judgments toward strictness; decide whether that is drift or alignment
 with reference to the population you serve rather than to a leaderboard.
 And when evaluating, report compliance and verdict-extraction procedures
 alongside accuracy: in our study, response-style artefacts could
-fabricate condition effects several times larger than the real ones
-until validation caught them.
+produce spurious condition effects several times larger than the real
+ones until validation identified them.
 
-The cost multiplier invites an obvious continuation: distilling the
+The cost multiplier suggests a direct continuation: distilling the
 procedure into the weights. Our loop transcripts constitute training
 data for exactly this, and process distillation, fine-tuning on
 deliberations rather than on creeds, would test whether the
 content/procedure dissociation survives the move from context to
-parameters. We leave it to future work, with the present study's
-prediction on record: tuning on the creed should reproduce its
-inertness; tuning on the practice should carry the gains.
+parameters. We leave it to future work, noting the prediction this study implies:
+tuning on the creed should reproduce its inertness; tuning on the
+practice should preserve the gains.
 # 7. Limitations
 
 **The vow translation is ours.** The mapping from doctrine to prompt
 (the English rendering of the vows, the glossing of the three poisons as
 sycophancy, dismissiveness, and overconfidence, and the ordering of the
 loop) was made by the authors without doctrinal authority. Paraphrase
-robustness (Appendix B) shows the results do not hang on our particular
-wording, but a rendering endorsed by Buddhist scholars or practitioners
+robustness (Appendix B) shows the results do not depend on our particular wording, but a rendering endorsed by Buddhist scholars or practitioners
 could differ in substance, not merely phrasing, and might behave
 differently.
 
 **One cultural anchor.** All benchmarks are in English and labelled by
 US or English-speaking-community annotators. Our claims are accordingly
 about divergence *from that anchor*, not about fidelity to Buddhist
-moral judgment, which we did not measure. The decisive test, whether
-vow-conditioned models track annotators from Buddhist cultural spheres
-better than baseline, remains to be run.
+moral judgment, which we did not measure. The direct test — whether vow-conditioned models track annotators from
+Buddhist cultural spheres better than baseline — has yet to be
+conducted.
 
 **Models and precision.** Four models from four families, all
 instruction-tuned and 4-bit quantized, evaluated at temperature 0. The
 loop's benefit was model-dependent: significant on Qwen, positive but
 not significant on Gemma, and absent on GPT-OSS; on Gemma the loop also
 carried a small significant MMLU cost. The dissociation we
-report is a pattern across models, not a law of each. Quantization and greedy decoding match
+report is a pattern across models, not a uniform effect within each. Quantization and greedy decoding match
 deployment practice for local models but may not transfer to full-
 precision or sampled settings. Llama 3.3 70B lacks MoralChoice, SCRUPLES, and MMLU data entirely, and
 its hard-split vow-loop cell was curtailed (n = 52) because its
@@ -739,8 +729,8 @@ conditions primarily.
 each with 200-300 sampled items per condition. MoralChoice's
 low-ambiguity split saturated for every model, so it functions here
 only as a negative control. SCRUPLES
-inherits the demographics and norms of its source community; its
-"human distribution" is one crowd's, not humanity's.
+inherits the demographics and norms of its source community; its "human distribution" reflects one community, not a general
+population.
 
 **Prompted values, not learned ones.** Everything here operates in
 context. Whether the content/procedure dissociation survives fine-tuning,
@@ -750,8 +740,7 @@ released loop transcripts make testable.
 # 8. Conclusion
 
 We set out to ask whether the Four Great Bodhisattva Vows could cultivate
-a more ethical local language model, and the experiment answered a
-better-posed question instead. Installed as a creed, the vows helped
+a more ethical local language model, and the experiments instead addressed a better-posed set of questions. Installed as a creed, the vows helped
 nothing on any model or wording we tried; executed as a practice, the
 reflective procedure they prescribe improved judgment on real-life
 dilemmas — and improved it just as well when the vows were removed and
@@ -760,14 +749,14 @@ Buddhist or otherwise, shifted commonsense judgments in directions that
 US-crowd-labelled benchmarks can only record as error, even as the same
 conditions best matched human majorities elsewhere.
 
-For the practice of value-loading, the lesson is to ship procedures, not
-posters. For the practice of evaluation, the lesson is that a moral
-benchmark score is a comparison against somebody, and the somebody is a
-design choice that leaderboards built on such benchmarks leave silent. The vows, asked to
-make a model good, ended up showing how much of "good" our instruments
-had quietly decided in advance — which is, perhaps, a fitting outcome
-for a tradition that vows to study boundless dharma gates rather than to
-possess a final rule.
+For value-loading practice, the implication is that procedures, not
+posted value statements, are the effective unit of intervention. For
+evaluation practice, the implication is that a moral benchmark score is
+a comparison against a particular population, and the somebody is a
+design choice that leaderboards built on such benchmarks leave silent. Asked to make a model good, the vows instead revealed how much of
+"good" our instruments had decided in advance — a fitting outcome,
+perhaps, for a tradition that vows to study boundless teachings rather
+than to possess a final rule.
 # Declarations
 
 **Funding.** [To confirm at submission: 上廣倫理財団 research grant if

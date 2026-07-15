@@ -1,15 +1,15 @@
 # 1. Introduction
 
-Anyone can now run a capable language model on a desk. The weights are
-open, the hardware is consumer-grade, and the operator answers to no
-platform's alignment team. For this rapidly growing population of
+Capable language models can now be run locally from openly released
+weights on consumer hardware, by operators subject to no platform
+provider's alignment process. For this rapidly growing population of
 deployments, the entire apparatus of value alignment reduces to what can
 be written into a context window: if the operator of a local model wants
 it to be good, they must *tell* it to be good. What, then, should they
 write?
 
-The intuitive answer, state your values, has a long pedigree and a
-short reach. Values enter system prompts as creeds: lists of principles,
+The intuitive answer — stating one's values — is long established but
+of limited reach. Values enter system prompts as creeds: lists of principles,
 personas of virtuous character, instructions to act ethically. Prior
 work shows such statements do change moral behaviour (Bai et al., 2022;
 Scherrer et al., 2023), but
@@ -43,14 +43,14 @@ reflection procedure (enumerate the affected parties, audit one's own
 reasoning for craving, aversion, and delusion, entertain dissenting
 moral perspectives, then revise) executed before every answer. Against
 these we run three controls that most studies omit: a generic
-be-ethical prompt, a Western virtue-ethics prompt, and, decisively, the
-*same four-stage procedure with the vows removed*, so that value content
-and reasoning procedure are priced separately. Four model families
+be-ethical prompt, a Western virtue-ethics prompt, and the *same
+four-stage procedure with the vows removed*, which allows value content
+and reasoning procedure to be estimated separately. Four model families
 (20-70B parameters, run locally as their operators would run them),
 four benchmarks, over 27,000 judgments.
 
-We asked whether the vows would make models more ethical. The data
-answered three sharper questions:
+We asked whether the vows would make models more ethical. The results
+are better organized as answers to three narrower questions:
 
 - **RQ1 (effect):** Value-loading moved judgment, but every form of
   ethical attention, Buddhist or not, shifted commonsense verdicts

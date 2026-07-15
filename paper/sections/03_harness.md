@@ -13,13 +13,10 @@ daily across East Asian Mahayana traditions:
 Two properties make them a sharper instrument for this study than a list
 of precepts would be. First, they are *aspirational commitments rather
 than rules*: each names an inexhaustible object (all beings, all
-delusions, all teachings, an unsurpassable way) and binds the practitioner
-to a direction rather than a boundary. A rule can be checked; a vow can
-only be practised. Second, they already have the shape of a procedure.
+delusions, all teachings, an unsurpassable way) and binds the practitioner to a direction rather than a boundary. Second, they already have the shape of a procedure.
 Read in order, they describe a movement of attention — outward to those
 affected, inward to one's own distortions, sideways to other
-understandings, and forward toward a better answer — that maps naturally
-onto a sequence of reasoning steps. The harness makes that mapping
+understandings, and forward toward a better answer — that corresponds to a sequence of reasoning steps. The harness makes that mapping
 explicit.
 
 ## 3.2 From vow to operation
@@ -46,8 +43,8 @@ Limitations.
 
 ## 3.3 Two implementations
 
-The harness exists in two forms precisely because the difference between
-them is the experiment.
+The harness exists in two forms because the difference between them is
+the object of the experiment.
 
 **Static** (vows as content): the vows and their glosses are placed in
 the system prompt, and the model answers the task question directly. This

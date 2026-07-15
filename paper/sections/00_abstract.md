@@ -16,7 +16,7 @@ craving, aversion, and delusion; entertain dissenting perspectives;
 revise), and evaluate four open-weight model families (20-70B, run
 locally) across ETHICS, MoralChoice, SCRUPLES, and MMLU — over
 27,000 judgments — against generic-ethics, virtue-ethics, paraphrase,
-and procedure-matched secular controls. Three findings emerge. First,
+and procedure-matched secular controls. We report three findings. First,
 every form of ethical attention shifted commonsense judgments toward
 strictness (e.g., .06 to .29 false-"wrong" rate), a framework shift
 that US-crowd-labelled benchmarks can only score as error, while
