@@ -28,9 +28,13 @@
 1. https://link.springer.com/journal/43681 → Submit manuscript
    （Editorial Manager / Snapp）
 2. Article type: Original Research
-3. アップロード: **paper/springer/vows-manuscript-latex.zip**
-   （図表込みの自己完結LaTeX一式。システムが査読用PDFに自動変換。
-   フォームの一部が自動入力される）
+3. アップロード（**二重匿名査読対応・2ファイル構成**）:
+   - Blinded Manuscript: **paper/springer/vows-manuscript-blinded.zip**
+     （著者情報・GitHub URLを除去した匿名化LaTeX一式。表込み。
+     こちらを「原稿」としてアップロード → フォーム自動入力）
+   - Title Page: **paper/springer/title_page.pdf**
+     （著者・所属・連絡先・Funding・CRediT・実リポジトリURL）
+   ※ vows-manuscript-latex.zip（非匿名版）は採択後の最終版用に残置
 4. Cover letter: paper/cover_letter.md を貼り付け
 5. Funding: 「No funding was received for conducting this study.」で
    確定済み。投稿画面でも "No funding" を選択
