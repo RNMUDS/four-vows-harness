@@ -170,3 +170,12 @@ CONDITIONS.update({
                     "stages": VIRTUE_LOOP_STAGES,
                     "final": VIRTUE_LOOP_FINAL},
 })
+
+
+# Bare procedure: the reflect-loop stages with NO system prompt at all.
+# Separates the procedure from even the one-line generic-ethics framing.
+CONDITIONS.update({
+    "bare_loop": {"system": None, "loop": True,
+                  "stages": REFLECT_LOOP_STAGES,
+                  "final": REFLECT_LOOP_FINAL},
+})

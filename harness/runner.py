@@ -36,10 +36,10 @@ def _run_loop(model: str, cond: dict, item: dict) -> tuple[str, list[dict]]:
     conditions carry their own `stages`/`final`."""
     stages = cond.get("stages", VOWS_LOOP_STAGES)
     final_instruction = cond.get("final", VOWS_LOOP_FINAL)
-    messages = [
-        {"role": "system", "content": cond["system"]},
-        {"role": "user", "content": scenario_block(item)},
-    ]
+    messages = []
+    if cond["system"]:
+        messages.append({"role": "system", "content": cond["system"]})
+    messages.append({"role": "user", "content": scenario_block(item)})
     replies = []
     intro = ollama_client.chat(
         model,
