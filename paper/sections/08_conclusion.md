@@ -14,7 +14,7 @@ conditions best matched human majorities elsewhere.
 For the practice of value-loading, the lesson is to ship procedures, not
 posters. For the practice of evaluation, the lesson is that a moral
 benchmark score is a comparison against somebody, and the somebody is a
-design choice that current leaderboards leave silent. The vows, asked to
+design choice that leaderboards built on such benchmarks leave silent. The vows, asked to
 make a model good, ended up showing how much of "good" our instruments
 had quietly decided in advance — which is, perhaps, a fitting outcome
 for a tradition that vows to study boundless dharma gates rather than to

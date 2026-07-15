@@ -1,8 +1,8 @@
 # Abstract
 
 **Title:** Vows, Not Posters: Value Content, Reflective Procedure, and
-What Moral Benchmarks Actually Measure — Evidence from a Four Great
-Vows Harness for Open-Weight Language Models
+What Moral Benchmarks Measure — Evidence from a Four Great Vows
+Harness for Open-Weight Language Models
 
 Operators of open-weight language models align them the only way they
 can: by writing values into the context window. We ask whether values
@@ -30,7 +30,8 @@ ethics prompts alter response style enough that unvalidated answer
 extraction fabricated pseudo-effects exceeding the true ones,
 motivating compliance and extraction reporting as standard practice.
 Value content steers the direction of judgment; reflective procedure
-supplies its quality; current moral benchmarks conflate the two. We
+supplies its quality; and crowd-labelled moral benchmarks of the kind
+we studied conflate the two. We
 release all code, prompts, and per-item records.
 
 **Keywords:** AI ethics; large language models; Buddhist ethics; moral
@@ -59,6 +60,19 @@ attend to all beings, to cut one's own delusions, to study boundless
 teachings, to keep walking an unsurpassable way. A creed one can paste;
 a vow must be executed.
 
+Three properties make the Four Great Vows a sharp instrument for this
+test rather than an arbitrary borrowing. They are ecologically real:
+among the most widely recited formulas in the Mahayana world, not a
+value set constructed for the experiment. They are decomposable: their
+four objects specify four distinct movements of attention (toward those
+affected, into one's own distortions, across other understandings,
+onward to a better answer) that a dialogue system can literally
+execute, one turn each. And they are aspirations rather than rules,
+which makes the contrast under study as sharp as it can be made: a rule
+invites checking, an aspiration demands practice, so if the difference
+between possessing values and practising them matters anywhere, it
+should matter here. Section 3 develops the mapping.
+
 This paper takes that distinction literally and tests it. We translate
 the four vows into two harnesses for open-weight models: a *static*
 form, in which the vows and behavioural glosses sit in the system prompt,
@@ -84,7 +98,8 @@ answered three sharper questions:
   improved judgment while the creed never did, and the procedure
   worked at least as well with the vows removed, retaining only a
   one-line generic ethics instruction. The vows steer; the
-  practice improves; the two are separable.
+  practice improves; the two are separable — the improvement belongs
+  to the reflective procedure, not to the Buddhist content.
 - **RQ3 (measurement):** A benchmark score summed over these effects
   conflates a change of moral framework with a change of competence. We
   show the two can be decomposed (by error direction, by
@@ -581,12 +596,23 @@ inspecting one's own distortions, entertaining dissent, and revising,
 changes how well the model judges: on real-life dilemmas the secular
 form of the loop scored highest on two of three models (significantly
 above baseline on one) and level on the third, while no value framing
-ever beat it.
+ever beat it. To be explicit: our data do not show that Buddhist
+content improves moral judgment. They show that a reflective procedure
+can, whatever it is practised in the name of; the vows' distinctive
+contribution is directional, and it is the benchmarks' reaction to that
+direction that carries the paper's second lesson.
 
-A benchmark that reports a single accuracy number cannot see this
-structure. It scores the strictness shift as error (because its labels
-encode one population's leniency), scores the deliberative gain as
-improvement, and returns their sum. Two of our numbers make the point
+A single-label accuracy score cannot see this structure. It records
+the strictness shift as error (because its labels encode one
+annotator population's leniency), records the deliberative gain as
+improvement, and returns their sum. We stress the scope of this claim:
+it is an observation about how the three crowd-labelled benchmarks we
+studied respond to framework shifts, not an argument that such
+benchmarks are useless. For screening clear harms — where our F3
+results show value-loading changes nothing — a single label is exactly
+the right instrument. The hazard is confined to comparative claims
+about *values*, where a difference in framework and a difference in
+competence arrive as the same number. Two of our numbers make the point
 concretely: the same vow loop that loses two to eight points against US
 crowd labels on ETHICS commonsense is among the conditions that best
 match the SCRUPLES annotator majority on consensus items. Whether the
@@ -628,9 +654,32 @@ example the Japanese-annotated JCommonsenseMorality (Takeshita et al., 2023)), a
 a test of whether vow-conditioned judgments track them better than
 baseline. We regard that as the natural next study, and the present
 results as establishing its motivating phenomenon: value-loading moves
-models in directions that current benchmarks can only register as error.
+models in directions that single-label benchmarks of this kind can only
+register as error.
 
-## 6.4 Practical guidance
+## 6.4 Implications for value alignment
+
+The content/procedure dissociation maps onto a distinction that the
+alignment literature draws conceptually but rarely tests empirically:
+between aligning a system to some *substantive* set of values and
+equipping it with a *procedure* whose fairness or thoroughness can be
+endorsed from many value positions (Gabriel, 2020). Our results are a
+small empirical brief for the procedural side. Substantive loading, in
+the static form available to every operator today, bought no measurable
+quality and imposed a direction that only some populations would
+endorse; the procedure improved judgment while remaining, in itself,
+neutral about which morality supplies the stakeholders' weights. This
+is also where the results touch pluralistic alignment (Sorensen et al.,
+2024): a model that enumerates affected parties, audits itself, and
+entertains dissent before answering is a plausible substrate for
+Overton-style pluralism — it generates the perspectives a pluralistic
+answer must survey — whereas a model with a creed in its system prompt
+has simply been moved to one point in value space. If alignment must
+serve many moralities at once, our data suggest the leverage is in what
+models are made to *do* before answering, not in what they are told to
+*be*.
+
+## 6.5 Practical guidance
 
 For practitioners who value-load open-weight models, the results reduce
 to four rules of thumb. Do not paste a creed into the system prompt and
@@ -714,7 +763,7 @@ conditions best matched human majorities elsewhere.
 For the practice of value-loading, the lesson is to ship procedures, not
 posters. For the practice of evaluation, the lesson is that a moral
 benchmark score is a comparison against somebody, and the somebody is a
-design choice that current leaderboards leave silent. The vows, asked to
+design choice that leaderboards built on such benchmarks leave silent. The vows, asked to
 make a model good, ended up showing how much of "good" our instruments
 had quietly decided in advance — which is, perhaps, a fitting outcome
 for a tradition that vows to study boundless dharma gates rather than to
@@ -769,6 +818,10 @@ Learning*.
 Foulk, T. G. (Trans.). (2010). *Standard observances of the Soto Zen
 school*. Sōtōshū Shūmuchō.
 
+Gabriel, I. (2020). Artificial intelligence, values, and alignment.
+*Minds and Machines, 30*(3), 411-437.
+https://doi.org/10.1007/s11023-020-09539-2
+
 Hendrycks, D., Burns, C., Basart, S., Critch, A., Li, J., Song, D., &
 Steinhardt, J. (2021). Aligning AI with shared human values.
 *International Conference on Learning Representations*.
@@ -810,6 +863,11 @@ https://proceedings.neurips.cc/paper_files/paper/2023/hash/a2cf225ba392627529efe
 Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman,
 S. R., ... Perez, E. (2024). Towards understanding sycophancy in
 language models. *International Conference on Learning Representations*.
+
+Sorensen, T., Moore, J., Fisher, J., Gordon, M. L., Mireshghallah, N.,
+Rytting, C. M., ... Choi, Y. (2024). Position: A roadmap to pluralistic
+alignment. *Proceedings of the 41st International Conference on Machine
+Learning*, 46280-46302.
 
 Takeshita, M., Rzepka, R., & Araki, K. (2023). JCommonsenseMorality:
 Japanese dataset for evaluating commonsense morality understanding.

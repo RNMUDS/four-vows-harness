@@ -19,6 +19,10 @@ Learning*.
 Foulk, T. G. (Trans.). (2010). *Standard observances of the Soto Zen
 school*. Sōtōshū Shūmuchō.
 
+Gabriel, I. (2020). Artificial intelligence, values, and alignment.
+*Minds and Machines, 30*(3), 411-437.
+https://doi.org/10.1007/s11023-020-09539-2
+
 Hendrycks, D., Burns, C., Basart, S., Critch, A., Li, J., Song, D., &
 Steinhardt, J. (2021). Aligning AI with shared human values.
 *International Conference on Learning Representations*.
@@ -60,6 +64,11 @@ https://proceedings.neurips.cc/paper_files/paper/2023/hash/a2cf225ba392627529efe
 Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman,
 S. R., ... Perez, E. (2024). Towards understanding sycophancy in
 language models. *International Conference on Learning Representations*.
+
+Sorensen, T., Moore, J., Fisher, J., Gordon, M. L., Mireshghallah, N.,
+Rytting, C. M., ... Choi, Y. (2024). Position: A roadmap to pluralistic
+alignment. *Proceedings of the 41st International Conference on Machine
+Learning*, 46280-46302.
 
 Takeshita, M., Rzepka, R., & Araki, K. (2023). JCommonsenseMorality:
 Japanese dataset for evaluating commonsense morality understanding.

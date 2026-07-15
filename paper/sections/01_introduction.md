@@ -22,6 +22,19 @@ attend to all beings, to cut one's own delusions, to study boundless
 teachings, to keep walking an unsurpassable way. A creed one can paste;
 a vow must be executed.
 
+Three properties make the Four Great Vows a sharp instrument for this
+test rather than an arbitrary borrowing. They are ecologically real:
+among the most widely recited formulas in the Mahayana world, not a
+value set constructed for the experiment. They are decomposable: their
+four objects specify four distinct movements of attention (toward those
+affected, into one's own distortions, across other understandings,
+onward to a better answer) that a dialogue system can literally
+execute, one turn each. And they are aspirations rather than rules,
+which makes the contrast under study as sharp as it can be made: a rule
+invites checking, an aspiration demands practice, so if the difference
+between possessing values and practising them matters anywhere, it
+should matter here. Section 3 develops the mapping.
+
 This paper takes that distinction literally and tests it. We translate
 the four vows into two harnesses for open-weight models: a *static*
 form, in which the vows and behavioural glosses sit in the system prompt,
@@ -47,7 +60,8 @@ answered three sharper questions:
   improved judgment while the creed never did, and the procedure
   worked at least as well with the vows removed, retaining only a
   one-line generic ethics instruction. The vows steer; the
-  practice improves; the two are separable.
+  practice improves; the two are separable — the improvement belongs
+  to the reflective procedure, not to the Buddhist content.
 - **RQ3 (measurement):** A benchmark score summed over these effects
   conflates a change of moral framework with a change of competence. We
   show the two can be decomposed (by error direction, by

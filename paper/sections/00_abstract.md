@@ -1,8 +1,8 @@
 # Abstract
 
 **Title:** Vows, Not Posters: Value Content, Reflective Procedure, and
-What Moral Benchmarks Actually Measure — Evidence from a Four Great
-Vows Harness for Open-Weight Language Models
+What Moral Benchmarks Measure — Evidence from a Four Great Vows
+Harness for Open-Weight Language Models
 
 Operators of open-weight language models align them the only way they
 can: by writing values into the context window. We ask whether values
@@ -30,7 +30,8 @@ ethics prompts alter response style enough that unvalidated answer
 extraction fabricated pseudo-effects exceeding the true ones,
 motivating compliance and extraction reporting as standard practice.
 Value content steers the direction of judgment; reflective procedure
-supplies its quality; current moral benchmarks conflate the two. We
+supplies its quality; and crowd-labelled moral benchmarks of the kind
+we studied conflate the two. We
 release all code, prompts, and per-item records.
 
 **Keywords:** AI ethics; large language models; Buddhist ethics; moral

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.31)  15 JUL 2026 11:29
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.31)  15 JUL 2026 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1246,195 +1246,199 @@ LaTeX Font Info:    Font shape `TU/HiraginoMinchoProN(0)/m/n' will be
 
 ]
 [2]
-Underfull \hbox (badness 1112) in paragraph at lines 257--263
+Underfull \hbox (badness 1112) in paragraph at lines 272--278
 []\TU/lmr/m/n/10.95 Separately, a growing literature shows that structured deli
 beration — self-critique, multi-
  []
 
 [3] [4] [5] [6] [7] [8] [9] [10]
-Overfull \hbox (0.82025pt too wide) in paragraph at lines 759--759
+Overfull \hbox (0.82025pt too wide) in paragraph at lines 774--774
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (0.82025pt too wide) in paragraph at lines 805--805
-[]|\TU/lmr/m/n/10.95 generic_ethics|  
- []
-
-[11]
-Overfull \hbox (0.82025pt too wide) in paragraph at lines 850--850
+ignored: Infinite glue shrinkage found in box being split [11]
+Overfull \hbox (0.82025pt too wide) in paragraph at lines 820--820
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (0.82025pt too wide) in paragraph at lines 893--893
+Overfull \hbox (0.82025pt too wide) in paragraph at lines 865--865
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
-[12] [13] [14] [15] [16]
-Overfull \hbox (262.91881pt too wide) in paragraph at lines 1150--1154
+
+ignored: Infinite glue shrinkage found in box being split [12]
+Overfull \hbox (0.82025pt too wide) in paragraph at lines 908--908
+[]|\TU/lmr/m/n/10.95 generic_ethics|  
+ []
+
+[13] [14] [15] [16] [17]
+Overfull \hbox (262.91881pt too wide) in paragraph at lines 1203--1207
 \TU/lmr/m/it/10.95 Advances in Neural Information Processing Systems, 36\TU/lmr
 /m/n/10.95 . https://proceedings.neurips.cc/paper_files/paper/2023/hash/a2cf225
 ba392627529efef14dc857e22-
  []
 
-[17]
+[18]
 
 Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKmonofont[<...>]{<...>}' to define
 (xeCJK)                it.
 
-[18] [19] [20] [21]
-ignored: Infinite glue shrinkage found in box being split [22]
-Overfull \hbox (0.11523pt too wide) in alignment at lines 1553--1571
+[19] [20]
+ignored: Infinite glue shrinkage found in box being split [21]
+ignored: Infinite glue shr
+inkage found in box being split [22] [23] [24]
+Overfull \hbox (0.11523pt too wide) in alignment at lines 1611--1629
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.11523pt too wide) in alignment at lines 1571--1573
+Overfull \hbox (0.11523pt too wide) in alignment at lines 1629--1631
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (5.55447pt too wide) in paragraph at lines 1574--1574
+Overfull \hbox (5.55447pt too wide) in paragraph at lines 1632--1632
 []|\TU/lmr/m/n/10.95 MoralChoice- 
  []
 
 
-Overfull \hbox (12.28873pt too wide) in paragraph at lines 1576--1576
+Overfull \hbox (12.28873pt too wide) in paragraph at lines 1634--1634
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (5.55447pt too wide) in paragraph at lines 1577--1577
+Overfull \hbox (5.55447pt too wide) in paragraph at lines 1635--1635
 []|\TU/lmr/m/n/10.95 MoralChoice- 
  []
 
 
-Overfull \hbox (12.28873pt too wide) in paragraph at lines 1577--1577
+Overfull \hbox (12.28873pt too wide) in paragraph at lines 1635--1635
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (12.28873pt too wide) in paragraph at lines 1579--1579
+Overfull \hbox (12.28873pt too wide) in paragraph at lines 1637--1637
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (0.96643pt too wide) in paragraph at lines 1582--1582
+Overfull \hbox (0.96643pt too wide) in paragraph at lines 1640--1640
 []|\TU/lmr/m/n/10.95 SCRUPLES|  
  []
 
 
-Overfull \hbox (12.28873pt too wide) in paragraph at lines 1582--1582
+Overfull \hbox (12.28873pt too wide) in paragraph at lines 1640--1640
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (5.55447pt too wide) in paragraph at lines 1583--1583
+Overfull \hbox (5.55447pt too wide) in paragraph at lines 1641--1641
 []|\TU/lmr/m/n/10.95 MoralChoice- 
  []
 
 
-Overfull \hbox (7.13127pt too wide) in paragraph at lines 1583--1583
+Overfull \hbox (7.13127pt too wide) in paragraph at lines 1641--1641
 []|\TU/lmr/m/n/10.95 virtue_ethics|  
  []
 
 
-Overfull \hbox (19.92088pt too wide) in paragraph at lines 1585--1585
+Overfull \hbox (19.92088pt too wide) in paragraph at lines 1643--1643
 []|\TU/lmr/m/n/10.95 vows_static_v3|  
  []
 
 
-Overfull \hbox (0.96643pt too wide) in paragraph at lines 1587--1587
+Overfull \hbox (0.96643pt too wide) in paragraph at lines 1645--1645
 []|\TU/lmr/m/n/10.95 SCRUPLES|  
  []
 
 
-Overfull \hbox (14.09549pt too wide) in paragraph at lines 1587--1587
+Overfull \hbox (14.09549pt too wide) in paragraph at lines 1645--1645
 []|\TU/lmr/m/n/10.95 vows_loop_v2|  
  []
 
 
-Overfull \hbox (14.09549pt too wide) in paragraph at lines 1588--1588
+Overfull \hbox (14.09549pt too wide) in paragraph at lines 1646--1646
 []|\TU/lmr/m/n/10.95 vows_loop_v2|  
  []
 
 
-Overfull \hbox (12.28873pt too wide) in paragraph at lines 1591--1591
+Overfull \hbox (12.28873pt too wide) in paragraph at lines 1649--1649
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (19.92088pt too wide) in paragraph at lines 1594--1594
+Overfull \hbox (19.92088pt too wide) in paragraph at lines 1652--1652
 []|\TU/lmr/m/n/10.95 vows_static_v2|  
  []
 
 
-Overfull \hbox (0.96643pt too wide) in paragraph at lines 1598--1598
+Overfull \hbox (0.96643pt too wide) in paragraph at lines 1656--1656
 []|\TU/lmr/m/n/10.95 SCRUPLES|  
  []
 
 
-Overfull \hbox (0.96643pt too wide) in paragraph at lines 1603--1603
+Overfull \hbox (0.96643pt too wide) in paragraph at lines 1661--1661
 []|\TU/lmr/m/n/10.95 SCRUPLES|  
  []
 
 
-Overfull \hbox (5.55447pt too wide) in paragraph at lines 1604--1604
+Overfull \hbox (5.55447pt too wide) in paragraph at lines 1662--1662
 []|\TU/lmr/m/n/10.95 MoralChoice- 
  []
 
 
-Overfull \hbox (0.98833pt too wide) in paragraph at lines 1605--1605
+Overfull \hbox (0.98833pt too wide) in paragraph at lines 1663--1663
 []|\TU/lmr/m/n/10.95 reflect_loop|  
  []
 
 
-Overfull \hbox (7.13127pt too wide) in paragraph at lines 1607--1607
+Overfull \hbox (7.13127pt too wide) in paragraph at lines 1665--1665
 []|\TU/lmr/m/n/10.95 virtue_ethics|  
  []
 
 
-Overfull \hbox (7.13127pt too wide) in paragraph at lines 1608--1608
+Overfull \hbox (7.13127pt too wide) in paragraph at lines 1666--1666
 []|\TU/lmr/m/n/10.95 virtue_ethics|  
  []
 
 
-Overfull \hbox (0.96643pt too wide) in paragraph at lines 1610--1610
+Overfull \hbox (0.96643pt too wide) in paragraph at lines 1668--1668
 []|\TU/lmr/m/n/10.95 SCRUPLES|  
  []
 
 
-Overfull \hbox (0.96643pt too wide) in paragraph at lines 1611--1611
+Overfull \hbox (0.96643pt too wide) in paragraph at lines 1669--1669
 []|\TU/lmr/m/n/10.95 SCRUPLES|  
  []
 
 
-Overfull \hbox (7.13127pt too wide) in paragraph at lines 1611--1611
+Overfull \hbox (7.13127pt too wide) in paragraph at lines 1669--1669
 []|\TU/lmr/m/n/10.95 virtue_ethics|  
  []
 
 
-Overfull \hbox (0.11523pt too wide) in alignment at lines 1573--1614
+Overfull \hbox (0.11523pt too wide) in alignment at lines 1631--1672
  [] [] [] [] [] [] [] 
  []
 
-[23]
-ignored: Infinite glue shrinkage found in box being split [24] [25] (./main.aux)
+
+ignored: Infinite glue shrinkage found in box being split [25] [26] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20593 strings out of 468168
- 395398 string characters out of 5432815
- 1006074 words of memory out of 5000000
- 49063 multiletter control sequences out of 15000+600000
+ 20595 strings out of 468168
+ 395438 string characters out of 5432815
+ 1004060 words of memory out of 5000000
+ 49065 multiletter control sequences out of 15000+600000
  631917 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,7n,114p,1001b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,114p,1001b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (25 pages).
+Output written on main.pdf (26 pages).
