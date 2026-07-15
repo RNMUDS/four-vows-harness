@@ -86,6 +86,21 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -607,13 +622,24 @@ accuracy fell, it fell almost entirely on the strict side: the rate at
 which crowd- labelled \emph{acceptable} actions were judged wrong rose
 under the vow loop from .060 to .287 for GPT-OSS and from .067 to .147
 for Qwen (both hard split), and from .230 to .300 for Gemma (test
-split), while the opposite error stayed flat or fell (full strictness
-tables for both splits: Appendix B). The items that flipped correspond
-closely to precept concerns: trapping a butterfly in a net, releasing
-doves at a wedding (non-harm, 不殺生), borrowing a neighbour's mower
-unasked (not taking what is not given, 不与取), broadcasting whom a
-business partner had lunch with (right speech, 正語). We note below that
-the aggregate shift is not unique to vow content.
+split), while the opposite error stayed flat or fell (Figure 1; full
+strictness tables for both splits: Appendix B). The items that flipped
+correspond closely to precept concerns: trapping a butterfly in a net,
+releasing doves at a wedding (non-harm, 不殺生), borrowing a neighbour's
+mower unasked (not taking what is not given, 不与取), broadcasting whom
+a business partner had lunch with (right speech, 正語). We note below
+that the aggregate shift is not unique to vow content.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Over-strictness --- the rate at which crowd-labelled acceptable actions are judged wrong --- by condition on the ETHICS commonsense test split, with 95\% Wilson intervals. Grey: baseline (dashed reference line); blue: static prompt conditions; vermillion: the vow loop. The loop shifts judgment toward strictness on every model; static prompts do so inconsistently.}]{fig1_strictness.pdf}}
+\caption{Over-strictness --- the rate at which crowd-labelled acceptable
+actions are judged wrong --- by condition on the ETHICS commonsense test
+split, with 95\% Wilson intervals. Grey: baseline (dashed reference
+line); blue: static prompt conditions; vermillion: the vow loop. The
+loop shifts judgment toward strictness on every model; static prompts do
+so inconsistently.}
+\end{figure}
 
 The loop-content controls locate the source. On Qwen, the secular
 reflect loop (.210) and virtue loop (.230) raised over-strictness at
@@ -628,7 +654,7 @@ individual flips, not the aggregate effect.
 (F2)}\label{the-procedure-not-the-creed-improves-dilemma-judgment-f2}
 
 SCRUPLES separates the conditions (baselines .630-.693, well below
-ceiling). Three results establish the dissociation:
+ceiling; Figure 2). Three results establish the dissociation:
 
 \textbf{Static value injection never helps.} Accuracy under the static
 vow prompt fell significantly below baseline for Qwen (.547 vs .630, p =
@@ -656,6 +682,17 @@ vow loop vs baseline p = .50). No value framing significantly
 outperformed the secular procedure anywhere. Where the procedure helps,
 it supplies the gain; the value content adds nothing detectable to
 accuracy.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={SCRUPLES accuracy by condition with 95\% Wilson intervals, for the three models with full condition coverage. Grey: baseline (dashed reference line); blue: static prompt conditions; vermillion: reflective loop conditions. Loops sit at or above each model's baseline while no static prompt does; the GPT-OSS virtue-ethics point reflects 54\% response compliance rather than misjudgment (Section 5.5).}]{fig2_scruples.pdf}}
+\caption{SCRUPLES accuracy by condition with 95\% Wilson intervals, for
+the three models with full condition coverage. Grey: baseline (dashed
+reference line); blue: static prompt conditions; vermillion: reflective
+loop conditions. Loops sit at or above each model's baseline while no
+static prompt does; the GPT-OSS virtue-ethics point reflects 54\%
+response compliance rather than misjudgment (Section 5.5).}
+\end{figure}
 
 Alignment with the human vote distribution shows the same pattern from
 the annotators' side: on consensus items the Qwen loops matched the

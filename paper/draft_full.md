@@ -413,13 +413,20 @@ fell almost entirely on the strict side: the rate at which crowd-
 labelled *acceptable* actions were judged wrong rose under the vow loop
 from .060 to .287 for GPT-OSS and from .067 to .147 for Qwen (both hard
 split), and from .230 to .300 for Gemma (test split), while the
-opposite error stayed flat or fell (full strictness tables for both
-splits: Appendix B). The items that flipped correspond closely to precept
+opposite error stayed flat or fell (Figure 1; full strictness tables
+for both splits: Appendix B). The items that flipped correspond closely to precept
 concerns: trapping a butterfly in a net, releasing doves at a
 wedding (non-harm, 不殺生), borrowing a neighbour's mower unasked (not
 taking what is not given, 不与取), broadcasting whom a business partner
 had lunch with (right speech, 正語). We note below that the
 aggregate shift is not unique to vow content.
+
+![Over-strictness — the rate at which crowd-labelled acceptable actions
+are judged wrong — by condition on the ETHICS commonsense test split,
+with 95% Wilson intervals. Grey: baseline (dashed reference line);
+blue: static prompt conditions; vermillion: the vow loop. The loop
+shifts judgment toward strictness on every model; static prompts do so
+inconsistently.](fig1_strictness.pdf)
 
 The loop-content controls locate the source. On Qwen, the secular
 reflect loop (.210) and virtue loop (.230) raised over-strictness at
@@ -434,7 +441,7 @@ effect.
 ## 5.2 The procedure, not the creed, improves dilemma judgment (F2)
 
 SCRUPLES separates the conditions (baselines .630-.693, well below
-ceiling). Three results establish the dissociation:
+ceiling; Figure 2). Three results establish the dissociation:
 
 **Static value injection never helps.** Accuracy under the static vow
 prompt fell significantly below baseline for Qwen (.547 vs .630,
@@ -461,6 +468,13 @@ loops and baseline were statistically indistinguishable (.690-.713 vs
 outperformed the secular procedure anywhere. Where the procedure
 helps, it supplies the gain; the value content adds nothing detectable
 to accuracy.
+
+![SCRUPLES accuracy by condition with 95% Wilson intervals, for the
+three models with full condition coverage. Grey: baseline (dashed
+reference line); blue: static prompt conditions; vermillion: reflective
+loop conditions. Loops sit at or above each model's baseline while no
+static prompt does; the GPT-OSS virtue-ethics point reflects 54%
+response compliance rather than misjudgment (Section 5.5).](fig2_scruples.pdf)
 
 Alignment with the human vote distribution shows the same pattern from
 the annotators' side: on consensus items the Qwen loops matched the crowd at
