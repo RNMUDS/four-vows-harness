@@ -1,8 +1,6 @@
 # Title Page
 
-**Title:** Vows, Not Posters: Value Content, Reflective Procedure, and
-What Moral Benchmarks Measure — Evidence from a Four Great Vows Harness
-for Open-Weight Language Models
+**Title:** Vows, Not Posters: Separating Value Content from Reflective Procedure in Open-Weight Language Models
 
 **Author:** Ryota Nakamura
 

@@ -14,9 +14,7 @@
 4. ファイル: arxiv-upload.zip をアップロード → プロセッサに
    **XeLaTeX** を選択（2025年4月以降の Submission 1.5 で選択可能）
 5. メタデータ:
-   - Title: Vows, Not Posters: Value Content, Reflective Procedure,
-     and What Moral Benchmarks Measure — Evidence from a Four
-     Great Vows Harness for Open-Weight Language Models
+   - Title: Vows, Not Posters: Separating Value Content from Reflective Procedure in Open-Weight Language Models
    - Abstract: paper/sections/00_abstract.md の本文をプレーンテキスト化
      して貼り付け（マークダウン記法と改行を除去）
    - Comments 欄: "27,352 judgments; code and data:

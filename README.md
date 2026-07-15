@@ -2,9 +2,8 @@
 
 Code, prompts, and complete per-item results for the paper:
 
-> **Vows, Not Posters: Value Content, Reflective Procedure, and What
-> Moral Benchmarks Actually Measure — Evidence from a Four Great Vows
-> Harness for Open-Weight Language Models** (submitted; preprint link
+> **Vows, Not Posters: Separating Value Content from Reflective
+> Procedure in Open-Weight Language Models** (submitted; preprint link
 > forthcoming)
 
 We render the Four Great Bodhisattva Vows (四弘誓願) as (a) a static

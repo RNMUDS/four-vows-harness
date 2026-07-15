@@ -2,9 +2,7 @@
 
 Dear Editors of AI and Ethics,
 
-Please consider our manuscript, "Vows, Not Posters: Value Content,
-Reflective Procedure, and What Moral Benchmarks Measure — Evidence from
-a Four Great Vows Harness for Open-Weight Language Models," for
+Please consider our manuscript, "Vows, Not Posters: Separating Value Content from Reflective Procedure in Open-Weight Language Models," for
 publication as an original research article.
 
 Operators of open-weight language models can align their systems only

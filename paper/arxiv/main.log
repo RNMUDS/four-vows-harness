@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.31)  15 JUL 2026 13:13
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.26)  15 JUL 2026 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -887,40 +887,40 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 130.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 130.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 130.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 130.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 130.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 130.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 129.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 130.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 129.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -951,7 +951,7 @@ pt=math;language=dflt;"
 pt=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 130.
+(Font)              scaled to size 10.95pt on input line 129.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -994,18 +994,18 @@ atinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
 pt=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 130.
+(Font)              scaled to size 10.95pt on input line 129.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 130.
+(Font)              `operators' in the math version `normal' on input line 129.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 130.
+ line 129.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 130.
+(Font)              `operators' in the math version `bold' on input line 129.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 130.
+t line 129.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -1079,15 +1079,15 @@ nmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
 t=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 130.
+(Font)              `symbols' in the math version `normal' on input line 129.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 130.
+t line 129.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 130.
+(Font)              `symbols' in the math version `bold' on input line 129.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 130.
+t line 129.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -1156,23 +1156,23 @@ pt=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-30.
+29.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 130.
+t line 129.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 130
+(Font)              `largesymbols' in the math version `bold' on input line 129
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 130.
-LaTeX Info: Redefining \microtypecontext on input line 130.
-Package microtype Info: Applying patch `item' on input line 130.
-Package microtype Info: Applying patch `toc' on input line 130.
-Package microtype Info: Applying patch `eqnum' on input line 130.
-Package microtype Info: Applying patch `footnote' on input line 130.
-Package microtype Info: Applying patch `verbatim' on input line 130.
-LaTeX Info: Redefining \microtypesetup on input line 130.
+t line 129.
+LaTeX Info: Redefining \microtypecontext on input line 129.
+Package microtype Info: Applying patch `item' on input line 129.
+Package microtype Info: Applying patch `toc' on input line 129.
+Package microtype Info: Applying patch `eqnum' on input line 129.
+Package microtype Info: Applying patch `footnote' on input line 129.
+Package microtype Info: Applying patch `verbatim' on input line 129.
+LaTeX Info: Redefining \microtypesetup on input line 129.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1217,31 +1217,31 @@ ern Roman (RS)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 130.
+Package hyperref Info: Link coloring OFF on input line 129.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 132.
+(Font)              scaled to size 12.0pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 132.
+(Font)              scaled to size 8.0pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 132.
+(Font)              scaled to size 6.0pt on input line 131.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-32.
+31.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 132.
+(Font)              scaled to size 12.0011pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 132.
+(Font)              scaled to size 8.00073pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 132.
+(Font)              scaled to size 6.00055pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 132.
+(Font)              scaled to size 11.99872pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 132.
+(Font)              scaled to size 7.99915pt on input line 131.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 132.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 132
+(Font)              scaled to size 5.99936pt on input line 131.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 131
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1250,7 +1250,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 132
+LaTeX Font Info:    Trying to load font information for U+msb on input line 131
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1260,12 +1260,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `TU/HiraginoMinchoProN(0)/m/n' will be
-(Font)              scaled to size 8.77222pt on input line 138.
+(Font)              scaled to size 8.77222pt on input line 137.
  [1
 
 ]
 [2]
-Underfull \hbox (badness 1112) in paragraph at lines 273--279
+Underfull \hbox (badness 1112) in paragraph at lines 272--278
 []\TU/lmr/m/n/10.95 Separately, a growing literature shows that structured deli
 beration — self-critique, multi-
  []
@@ -1277,29 +1277,29 @@ File: fig1_strictness.pdf Graphic file (type pdf)
 File: fig2_scruples.pdf Graphic file (type pdf)
 <use fig2_scruples.pdf>
  [10] [11]
-Overfull \hbox (0.82025pt too wide) in paragraph at lines 793--793
+Overfull \hbox (0.82025pt too wide) in paragraph at lines 792--792
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (0.82025pt too wide) in paragraph at lines 839--839
+Overfull \hbox (0.82025pt too wide) in paragraph at lines 838--838
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
 ignored: Infinite glue shrinkage found in box being split [12]
-Overfull \hbox (0.82025pt too wide) in paragraph at lines 884--884
+Overfull \hbox (0.82025pt too wide) in paragraph at lines 883--883
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (0.82025pt too wide) in paragraph at lines 927--927
+Overfull \hbox (0.82025pt too wide) in paragraph at lines 926--926
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
 ignored: Infinite glue shrinkage found in box being split [13] [14] [15] [16] [17] [18]
-Overfull \hbox (262.91881pt too wide) in paragraph at lines 1224--1228
+Overfull \hbox (262.91881pt too wide) in paragraph at lines 1223--1227
 \TU/lmr/m/it/10.95 Advances in Neural Information Processing Systems, 36\TU/lmr
 /m/n/10.95 . https://proceedings.neurips.cc/paper_files/paper/2023/hash/a2cf225
 ba392627529efef14dc857e22-
@@ -1315,17 +1315,27 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 ignored: Infinite glue shrinkage found in box being split [22]
 ignored: Infinite glu
 e shrinkage found in box being split [23] [24]
-Overfull \hbox (0.11523pt too wide) in alignment at lines 1632--1650
+Overfull \hbox (0.11523pt too wide) in alignment at lines 1631--1649
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.11523pt too wide) in alignment at lines 1650--1652
+Overfull \hbox (0.11523pt too wide) in alignment at lines 1649--1651
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (5.55447pt too wide) in paragraph at lines 1653--1653
+Overfull \hbox (5.55447pt too wide) in paragraph at lines 1652--1652
+[]|\TU/lmr/m/n/10.95 MoralChoice- 
+ []
+
+
+Overfull \hbox (12.28873pt too wide) in paragraph at lines 1654--1654
+[]|\TU/lmr/m/n/10.95 generic_ethics|  
+ []
+
+
+Overfull \hbox (5.55447pt too wide) in paragraph at lines 1655--1655
 []|\TU/lmr/m/n/10.95 MoralChoice- 
  []
 
@@ -1335,48 +1345,43 @@ Overfull \hbox (12.28873pt too wide) in paragraph at lines 1655--1655
  []
 
 
-Overfull \hbox (5.55447pt too wide) in paragraph at lines 1656--1656
-[]|\TU/lmr/m/n/10.95 MoralChoice- 
- []
-
-
-Overfull \hbox (12.28873pt too wide) in paragraph at lines 1656--1656
+Overfull \hbox (12.28873pt too wide) in paragraph at lines 1657--1657
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (12.28873pt too wide) in paragraph at lines 1658--1658
-[]|\TU/lmr/m/n/10.95 generic_ethics|  
- []
-
-
-Overfull \hbox (0.96643pt too wide) in paragraph at lines 1661--1661
+Overfull \hbox (0.96643pt too wide) in paragraph at lines 1660--1660
 []|\TU/lmr/m/n/10.95 SCRUPLES|  
  []
 
 
-Overfull \hbox (12.28873pt too wide) in paragraph at lines 1661--1661
+Overfull \hbox (12.28873pt too wide) in paragraph at lines 1660--1660
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (5.55447pt too wide) in paragraph at lines 1662--1662
+Overfull \hbox (5.55447pt too wide) in paragraph at lines 1661--1661
 []|\TU/lmr/m/n/10.95 MoralChoice- 
  []
 
 
-Overfull \hbox (7.13127pt too wide) in paragraph at lines 1662--1662
+Overfull \hbox (7.13127pt too wide) in paragraph at lines 1661--1661
 []|\TU/lmr/m/n/10.95 virtue_ethics|  
  []
 
 
-Overfull \hbox (19.92088pt too wide) in paragraph at lines 1664--1664
+Overfull \hbox (19.92088pt too wide) in paragraph at lines 1663--1663
 []|\TU/lmr/m/n/10.95 vows_static_v3|  
  []
 
 
-Overfull \hbox (0.96643pt too wide) in paragraph at lines 1666--1666
+Overfull \hbox (0.96643pt too wide) in paragraph at lines 1665--1665
 []|\TU/lmr/m/n/10.95 SCRUPLES|  
+ []
+
+
+Overfull \hbox (14.09549pt too wide) in paragraph at lines 1665--1665
+[]|\TU/lmr/m/n/10.95 vows_loop_v2|  
  []
 
 
@@ -1385,38 +1390,38 @@ Overfull \hbox (14.09549pt too wide) in paragraph at lines 1666--1666
  []
 
 
-Overfull \hbox (14.09549pt too wide) in paragraph at lines 1667--1667
-[]|\TU/lmr/m/n/10.95 vows_loop_v2|  
- []
-
-
-Overfull \hbox (12.28873pt too wide) in paragraph at lines 1670--1670
+Overfull \hbox (12.28873pt too wide) in paragraph at lines 1669--1669
 []|\TU/lmr/m/n/10.95 generic_ethics|  
  []
 
 
-Overfull \hbox (19.92088pt too wide) in paragraph at lines 1673--1673
+Overfull \hbox (19.92088pt too wide) in paragraph at lines 1672--1672
 []|\TU/lmr/m/n/10.95 vows_static_v2|  
  []
 
 
-Overfull \hbox (0.96643pt too wide) in paragraph at lines 1677--1677
+Overfull \hbox (0.96643pt too wide) in paragraph at lines 1676--1676
 []|\TU/lmr/m/n/10.95 SCRUPLES|  
  []
 
 
-Overfull \hbox (0.96643pt too wide) in paragraph at lines 1682--1682
+Overfull \hbox (0.96643pt too wide) in paragraph at lines 1681--1681
 []|\TU/lmr/m/n/10.95 SCRUPLES|  
  []
 
 
-Overfull \hbox (5.55447pt too wide) in paragraph at lines 1683--1683
+Overfull \hbox (5.55447pt too wide) in paragraph at lines 1682--1682
 []|\TU/lmr/m/n/10.95 MoralChoice- 
  []
 
 
-Overfull \hbox (0.98833pt too wide) in paragraph at lines 1684--1684
+Overfull \hbox (0.98833pt too wide) in paragraph at lines 1683--1683
 []|\TU/lmr/m/n/10.95 reflect_loop|  
+ []
+
+
+Overfull \hbox (7.13127pt too wide) in paragraph at lines 1685--1685
+[]|\TU/lmr/m/n/10.95 virtue_ethics|  
  []
 
 
@@ -1425,8 +1430,8 @@ Overfull \hbox (7.13127pt too wide) in paragraph at lines 1686--1686
  []
 
 
-Overfull \hbox (7.13127pt too wide) in paragraph at lines 1687--1687
-[]|\TU/lmr/m/n/10.95 virtue_ethics|  
+Overfull \hbox (0.96643pt too wide) in paragraph at lines 1688--1688
+[]|\TU/lmr/m/n/10.95 SCRUPLES|  
  []
 
 
@@ -1435,17 +1440,12 @@ Overfull \hbox (0.96643pt too wide) in paragraph at lines 1689--1689
  []
 
 
-Overfull \hbox (0.96643pt too wide) in paragraph at lines 1690--1690
-[]|\TU/lmr/m/n/10.95 SCRUPLES|  
- []
-
-
-Overfull \hbox (7.13127pt too wide) in paragraph at lines 1690--1690
+Overfull \hbox (7.13127pt too wide) in paragraph at lines 1689--1689
 []|\TU/lmr/m/n/10.95 virtue_ethics|  
  []
 
 
-Overfull \hbox (0.11523pt too wide) in alignment at lines 1652--1693
+Overfull \hbox (0.11523pt too wide) in alignment at lines 1651--1692
  [] [] [] [] [] [] [] 
  []
 
@@ -1459,7 +1459,7 @@ L3 programming layer <2022/08/05>
 Here is how much of TeX's memory you used:
  20895 strings out of 468168
  400172 string characters out of 5432815
- 1015093 words of memory out of 5000000
+ 1015176 words of memory out of 5000000
  49352 multiletter control sequences out of 15000+600000
  631917 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
