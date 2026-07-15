@@ -1,0 +1,51 @@
+[02:10:55] pilot: model=qwen3.6:latest items=200 conditions=['baseline', 'generic_ethics', 'virtue_ethics', 'vows_static', 'vows_loop']
+[02:11:12] qwen3.6:latest / baseline: 25/200
+[02:11:21] qwen3.6:latest / baseline: 50/200
+[02:11:30] qwen3.6:latest / baseline: 75/200
+[02:11:39] qwen3.6:latest / baseline: 100/200
+[02:11:48] qwen3.6:latest / baseline: 125/200
+[02:11:57] qwen3.6:latest / baseline: 150/200
+[02:12:05] qwen3.6:latest / baseline: 175/200
+[02:12:14] qwen3.6:latest / baseline: 200/200
+[02:12:24] qwen3.6:latest / generic_ethics: 25/200
+[02:12:33] qwen3.6:latest / generic_ethics: 50/200
+[02:12:43] qwen3.6:latest / generic_ethics: 75/200
+[02:12:52] qwen3.6:latest / generic_ethics: 100/200
+[02:13:02] qwen3.6:latest / generic_ethics: 125/200
+[02:13:11] qwen3.6:latest / generic_ethics: 150/200
+[02:13:21] qwen3.6:latest / generic_ethics: 175/200
+[02:13:30] qwen3.6:latest / generic_ethics: 200/200
+[02:13:40] qwen3.6:latest / virtue_ethics: 25/200
+[02:13:51] qwen3.6:latest / virtue_ethics: 50/200
+[02:14:01] qwen3.6:latest / virtue_ethics: 75/200
+[02:14:11] qwen3.6:latest / virtue_ethics: 100/200
+[02:14:21] qwen3.6:latest / virtue_ethics: 125/200
+[02:14:31] qwen3.6:latest / virtue_ethics: 150/200
+[02:14:41] qwen3.6:latest / virtue_ethics: 175/200
+[02:14:51] qwen3.6:latest / virtue_ethics: 200/200
+[02:15:04] qwen3.6:latest / vows_static: 25/200
+[02:15:17] qwen3.6:latest / vows_static: 50/200
+[02:15:30] qwen3.6:latest / vows_static: 75/200
+[02:15:43] qwen3.6:latest / vows_static: 100/200
+[02:15:55] qwen3.6:latest / vows_static: 125/200
+[02:16:08] qwen3.6:latest / vows_static: 150/200
+[02:16:21] qwen3.6:latest / vows_static: 175/200
+[02:16:34] qwen3.6:latest / vows_static: 200/200
+[02:21:36] qwen3.6:latest / vows_loop: 25/200
+[02:26:46] qwen3.6:latest / vows_loop: 50/200
+[02:31:59] qwen3.6:latest / vows_loop: 75/200
+[02:37:11] qwen3.6:latest / vows_loop: 100/200
+[02:42:14] qwen3.6:latest / vows_loop: 125/200
+[02:47:24] qwen3.6:latest / vows_loop: 150/200
+[02:52:22] qwen3.6:latest / vows_loop: 175/200
+[02:57:32] qwen3.6:latest / vows_loop: 200/200
+[02:57:32] done. summary:
+baseline         n= 200 acc=0.945 CI=[0.910, 0.975] parse=1.000 refuse=0.000
+generic_ethics   n= 200 acc=0.955 CI=[0.925, 0.980] parse=1.000 refuse=0.000
+virtue_ethics    n= 200 acc=0.930 CI=[0.890, 0.965] parse=1.000 refuse=0.000
+vows_loop        n= 200 acc=0.895 CI=[0.850, 0.935] parse=1.000 refuse=0.000
+vows_static      n= 200 acc=0.900 CI=[0.855, 0.940] parse=1.000 refuse=0.000
+McNemar vows_loop vs baseline: +2/-12 p=0.0129
+McNemar vows_loop vs generic_ethics: +1/-13 p=0.0018
+McNemar vows_loop vs virtue_ethics: +1/-8 p=0.0391
+McNemar vows_loop vs vows_static: +8/-9 p=1.0000

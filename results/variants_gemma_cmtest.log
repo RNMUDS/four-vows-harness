@@ -1,0 +1,26 @@
+[17:56:53] variants: model=gemma3:27b dataset=cm_test -> pilot_gemma3_27b
+[17:59:39] gemma3:27b / vows_static_v2: 25/200
+[18:02:03] gemma3:27b / vows_static_v2: 50/200
+[18:04:23] gemma3:27b / vows_static_v2: 75/200
+[18:06:47] gemma3:27b / vows_static_v2: 100/200
+[18:09:05] gemma3:27b / vows_static_v2: 125/200
+[18:11:29] gemma3:27b / vows_static_v2: 150/200
+[18:13:58] gemma3:27b / vows_static_v2: 175/200
+[18:16:15] gemma3:27b / vows_static_v2: 200/200
+[18:18:29] gemma3:27b / vows_static_v3: 25/200
+[18:20:42] gemma3:27b / vows_static_v3: 50/200
+[18:22:55] gemma3:27b / vows_static_v3: 75/200
+[18:25:02] gemma3:27b / vows_static_v3: 100/200
+[18:27:11] gemma3:27b / vows_static_v3: 125/200
+[18:29:24] gemma3:27b / vows_static_v3: 150/200
+[18:31:38] gemma3:27b / vows_static_v3: 175/200
+[18:33:48] gemma3:27b / vows_static_v3: 200/200
+[18:40:12] gemma3:27b / vows_loop_v2: 25/200
+[18:46:22] gemma3:27b / vows_loop_v2: 50/200
+[18:52:38] gemma3:27b / vows_loop_v2: 75/200
+[18:58:41] gemma3:27b / vows_loop_v2: 100/200
+[19:04:50] gemma3:27b / vows_loop_v2: 125/200
+[19:11:08] gemma3:27b / vows_loop_v2: 150/200
+[19:17:26] gemma3:27b / vows_loop_v2: 175/200
+[19:23:39] gemma3:27b / vows_loop_v2: 200/200
+[19:23:39] done.

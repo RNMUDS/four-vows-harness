@@ -1,0 +1,13 @@
+# third-party datasets: fetch with scripts/fetch_data.sh
+data/
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+# latex build artifacts
+paper/latex/*.aux
+paper/latex/*.log
+paper/latex/*.out
+paper/latex/compile.log
+# local scratch
+tasks/

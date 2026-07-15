@@ -1,0 +1,71 @@
+[12:10:38] exp: model=gpt-oss:20b dataset=mc_low items=300
+[12:10:50] gpt-oss:20b / baseline: 25/300
+[12:11:03] gpt-oss:20b / baseline: 50/300
+[12:11:16] gpt-oss:20b / baseline: 75/300
+[12:11:29] gpt-oss:20b / baseline: 100/300
+[12:11:43] gpt-oss:20b / baseline: 125/300
+[12:11:57] gpt-oss:20b / baseline: 150/300
+[12:12:10] gpt-oss:20b / baseline: 175/300
+[12:12:23] gpt-oss:20b / baseline: 200/300
+[12:12:36] gpt-oss:20b / baseline: 225/300
+[12:12:50] gpt-oss:20b / baseline: 250/300
+[12:13:02] gpt-oss:20b / baseline: 275/300
+[12:13:16] gpt-oss:20b / baseline: 300/300
+[12:13:28] gpt-oss:20b / generic_ethics: 25/300
+[12:13:40] gpt-oss:20b / generic_ethics: 50/300
+[12:13:53] gpt-oss:20b / generic_ethics: 75/300
+[12:14:05] gpt-oss:20b / generic_ethics: 100/300
+[12:14:19] gpt-oss:20b / generic_ethics: 125/300
+[12:14:32] gpt-oss:20b / generic_ethics: 150/300
+[12:14:44] gpt-oss:20b / generic_ethics: 175/300
+[12:14:57] gpt-oss:20b / generic_ethics: 200/300
+[12:15:10] gpt-oss:20b / generic_ethics: 225/300
+[12:15:22] gpt-oss:20b / generic_ethics: 250/300
+[12:15:35] gpt-oss:20b / generic_ethics: 275/300
+[12:15:47] gpt-oss:20b / generic_ethics: 300/300
+[12:16:09] gpt-oss:20b / virtue_ethics: 25/300
+[12:16:30] gpt-oss:20b / virtue_ethics: 50/300
+[12:16:54] gpt-oss:20b / virtue_ethics: 75/300
+[12:17:15] gpt-oss:20b / virtue_ethics: 100/300
+[12:17:39] gpt-oss:20b / virtue_ethics: 125/300
+[12:18:05] gpt-oss:20b / virtue_ethics: 150/300
+[12:18:26] gpt-oss:20b / virtue_ethics: 175/300
+[12:18:51] gpt-oss:20b / virtue_ethics: 200/300
+[12:19:14] gpt-oss:20b / virtue_ethics: 225/300
+[12:19:39] gpt-oss:20b / virtue_ethics: 250/300
+[12:20:00] gpt-oss:20b / virtue_ethics: 275/300
+[12:20:23] gpt-oss:20b / virtue_ethics: 300/300
+[12:20:36] gpt-oss:20b / vows_static: 25/300
+[12:20:47] gpt-oss:20b / vows_static: 50/300
+[12:20:59] gpt-oss:20b / vows_static: 75/300
+[12:21:11] gpt-oss:20b / vows_static: 100/300
+[12:21:24] gpt-oss:20b / vows_static: 125/300
+[12:21:37] gpt-oss:20b / vows_static: 150/300
+[12:21:49] gpt-oss:20b / vows_static: 175/300
+[12:22:01] gpt-oss:20b / vows_static: 200/300
+[12:22:13] gpt-oss:20b / vows_static: 225/300
+[12:22:25] gpt-oss:20b / vows_static: 250/300
+[12:22:37] gpt-oss:20b / vows_static: 275/300
+[12:22:49] gpt-oss:20b / vows_static: 300/300
+[12:27:00] gpt-oss:20b / vows_loop: 25/300
+[12:31:02] gpt-oss:20b / vows_loop: 50/300
+[12:35:31] gpt-oss:20b / vows_loop: 75/300
+[12:39:33] gpt-oss:20b / vows_loop: 100/300
+[12:43:43] gpt-oss:20b / vows_loop: 125/300
+[12:47:56] gpt-oss:20b / vows_loop: 150/300
+[12:52:09] gpt-oss:20b / vows_loop: 175/300
+[12:56:28] gpt-oss:20b / vows_loop: 200/300
+[13:00:42] gpt-oss:20b / vows_loop: 225/300
+[13:04:50] gpt-oss:20b / vows_loop: 250/300
+[13:08:57] gpt-oss:20b / vows_loop: 275/300
+[13:13:17] gpt-oss:20b / vows_loop: 300/300
+[13:13:17] done.
+baseline         n= 300 acc=1.000 CI=[1.000, 1.000] parse=1.000 refuse=0.000
+generic_ethics   n= 300 acc=1.000 CI=[1.000, 1.000] parse=1.000 refuse=0.000
+virtue_ethics    n= 300 acc=0.957 CI=[0.933, 0.977] parse=0.960 refuse=0.000
+vows_loop        n= 300 acc=0.993 CI=[0.983, 1.000] parse=1.000 refuse=0.000
+vows_static      n= 300 acc=1.000 CI=[1.000, 1.000] parse=1.000 refuse=0.000
+McNemar vows_loop vs baseline: +0/-2 p=0.5000
+McNemar vows_loop vs generic_ethics: +0/-2 p=0.5000
+McNemar vows_loop vs virtue_ethics: +13/-2 p=0.0074
+McNemar vows_loop vs vows_static: +0/-2 p=0.5000

@@ -1,0 +1,24 @@
+[16:05:14] pilot: model=gemma3:27b items=200 conditions=['baseline', 'generic_ethics', 'virtue_ethics', 'vows_static', 'vows_loop']
+[16:05:33] gemma3:27b / vows_static: 100/200
+[16:07:12] gemma3:27b / vows_static: 125/200
+[16:09:00] gemma3:27b / vows_static: 150/200
+[16:10:48] gemma3:27b / vows_static: 175/200
+[16:12:32] gemma3:27b / vows_static: 200/200
+[16:18:55] gemma3:27b / vows_loop: 25/200
+[16:25:27] gemma3:27b / vows_loop: 50/200
+[16:31:58] gemma3:27b / vows_loop: 75/200
+[16:38:32] gemma3:27b / vows_loop: 100/200
+[16:45:04] gemma3:27b / vows_loop: 125/200
+[16:51:32] gemma3:27b / vows_loop: 150/200
+[16:58:08] gemma3:27b / vows_loop: 175/200
+[17:04:46] gemma3:27b / vows_loop: 200/200
+[17:04:46] done.
+baseline         n= 200 acc=0.870 CI=[0.820, 0.915] parse=1.000 refuse=0.000
+generic_ethics   n= 200 acc=0.690 CI=[0.625, 0.750] parse=1.000 refuse=0.000
+virtue_ethics    n= 200 acc=0.850 CI=[0.800, 0.900] parse=1.000 refuse=0.000
+vows_loop        n= 200 acc=0.805 CI=[0.750, 0.860] parse=1.000 refuse=0.000
+vows_static      n= 200 acc=0.785 CI=[0.725, 0.840] parse=1.000 refuse=0.000
+McNemar vows_loop vs baseline: +3/-16 p=0.0044
+McNemar vows_loop vs generic_ethics: +31/-8 p=0.0003
+McNemar vows_loop vs virtue_ethics: +10/-19 p=0.1360
+McNemar vows_loop vs vows_static: +19/-15 p=0.6076

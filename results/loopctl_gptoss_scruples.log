@@ -1,0 +1,26 @@
+[01:51:15] loop-controls: model=gpt-oss:20b dataset=scruples -> scruples_gpt-oss_20b
+[01:55:15] gpt-oss:20b / reflect_loop: 25/300
+[01:59:36] gpt-oss:20b / reflect_loop: 50/300
+[02:03:36] gpt-oss:20b / reflect_loop: 75/300
+[02:07:52] gpt-oss:20b / reflect_loop: 100/300
+[02:12:03] gpt-oss:20b / reflect_loop: 125/300
+[02:16:17] gpt-oss:20b / reflect_loop: 150/300
+[02:20:28] gpt-oss:20b / reflect_loop: 175/300
+[02:24:33] gpt-oss:20b / reflect_loop: 200/300
+[02:28:45] gpt-oss:20b / reflect_loop: 225/300
+[02:33:05] gpt-oss:20b / reflect_loop: 250/300
+[02:37:15] gpt-oss:20b / reflect_loop: 275/300
+[02:41:22] gpt-oss:20b / reflect_loop: 300/300
+[02:45:31] gpt-oss:20b / virtue_loop: 25/300
+[02:49:45] gpt-oss:20b / virtue_loop: 50/300
+[02:53:50] gpt-oss:20b / virtue_loop: 75/300
+[02:58:01] gpt-oss:20b / virtue_loop: 100/300
+[03:02:16] gpt-oss:20b / virtue_loop: 125/300
+[03:06:25] gpt-oss:20b / virtue_loop: 150/300
+[03:10:38] gpt-oss:20b / virtue_loop: 175/300
+[03:14:48] gpt-oss:20b / virtue_loop: 200/300
+[03:19:13] gpt-oss:20b / virtue_loop: 225/300
+[03:23:37] gpt-oss:20b / virtue_loop: 250/300
+[03:27:58] gpt-oss:20b / virtue_loop: 275/300
+[03:32:09] gpt-oss:20b / virtue_loop: 300/300
+[03:32:09] done.

@@ -1,0 +1,18 @@
+[00:25:53] loop-controls: model=gemma3:27b dataset=cm_test -> pilot_gemma3_27b
+[00:30:49] gemma3:27b / reflect_loop: 25/200
+[00:36:32] gemma3:27b / reflect_loop: 50/200
+[00:41:17] gemma3:27b / reflect_loop: 75/200
+[00:46:40] gemma3:27b / reflect_loop: 100/200
+[00:52:07] gemma3:27b / reflect_loop: 125/200
+[00:57:06] gemma3:27b / reflect_loop: 150/200
+[01:02:14] gemma3:27b / reflect_loop: 175/200
+[01:07:39] gemma3:27b / reflect_loop: 200/200
+[01:12:46] gemma3:27b / virtue_loop: 25/200
+[01:18:01] gemma3:27b / virtue_loop: 50/200
+[01:22:51] gemma3:27b / virtue_loop: 75/200
+[01:28:02] gemma3:27b / virtue_loop: 100/200
+[01:33:02] gemma3:27b / virtue_loop: 125/200
+[01:37:59] gemma3:27b / virtue_loop: 150/200
+[01:43:18] gemma3:27b / virtue_loop: 175/200
+[01:48:34] gemma3:27b / virtue_loop: 200/200
+[01:48:34] done.

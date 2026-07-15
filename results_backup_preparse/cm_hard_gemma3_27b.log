@@ -1,0 +1,71 @@
+[09:11:40] exp: model=gemma3:27b dataset=cm_hard items=300
+[09:12:15] gemma3:27b / baseline: 25/300
+[09:12:31] gemma3:27b / baseline: 50/300
+[09:12:47] gemma3:27b / baseline: 75/300
+[09:13:04] gemma3:27b / baseline: 100/300
+[09:13:20] gemma3:27b / baseline: 125/300
+[09:13:36] gemma3:27b / baseline: 150/300
+[09:13:52] gemma3:27b / baseline: 175/300
+[09:14:08] gemma3:27b / baseline: 200/300
+[09:14:25] gemma3:27b / baseline: 225/300
+[09:14:41] gemma3:27b / baseline: 250/300
+[09:14:57] gemma3:27b / baseline: 275/300
+[09:15:13] gemma3:27b / baseline: 300/300
+[09:16:13] gemma3:27b / generic_ethics: 25/300
+[09:17:14] gemma3:27b / generic_ethics: 50/300
+[09:18:18] gemma3:27b / generic_ethics: 75/300
+[09:19:26] gemma3:27b / generic_ethics: 100/300
+[09:20:27] gemma3:27b / generic_ethics: 125/300
+[09:21:31] gemma3:27b / generic_ethics: 150/300
+[09:22:26] gemma3:27b / generic_ethics: 175/300
+[09:23:30] gemma3:27b / generic_ethics: 200/300
+[09:24:33] gemma3:27b / generic_ethics: 225/300
+[09:25:31] gemma3:27b / generic_ethics: 250/300
+[09:26:33] gemma3:27b / generic_ethics: 275/300
+[09:27:34] gemma3:27b / generic_ethics: 300/300
+[09:28:35] gemma3:27b / virtue_ethics: 25/300
+[09:29:34] gemma3:27b / virtue_ethics: 50/300
+[09:30:34] gemma3:27b / virtue_ethics: 75/300
+[09:31:34] gemma3:27b / virtue_ethics: 100/300
+[09:32:34] gemma3:27b / virtue_ethics: 125/300
+[09:33:32] gemma3:27b / virtue_ethics: 150/300
+[09:34:31] gemma3:27b / virtue_ethics: 175/300
+[09:35:27] gemma3:27b / virtue_ethics: 200/300
+[09:36:26] gemma3:27b / virtue_ethics: 225/300
+[09:37:26] gemma3:27b / virtue_ethics: 250/300
+[09:38:20] gemma3:27b / virtue_ethics: 275/300
+[09:39:19] gemma3:27b / virtue_ethics: 300/300
+[09:40:43] gemma3:27b / vows_static: 25/300
+[09:42:07] gemma3:27b / vows_static: 50/300
+[09:43:31] gemma3:27b / vows_static: 75/300
+[09:44:55] gemma3:27b / vows_static: 100/300
+[09:46:20] gemma3:27b / vows_static: 125/300
+[09:47:44] gemma3:27b / vows_static: 150/300
+[09:49:08] gemma3:27b / vows_static: 175/300
+[09:50:32] gemma3:27b / vows_static: 200/300
+[09:51:56] gemma3:27b / vows_static: 225/300
+[09:53:19] gemma3:27b / vows_static: 250/300
+[09:54:43] gemma3:27b / vows_static: 275/300
+[09:56:07] gemma3:27b / vows_static: 300/300
+[10:02:29] gemma3:27b / vows_loop: 25/300
+[10:08:48] gemma3:27b / vows_loop: 50/300
+[10:15:03] gemma3:27b / vows_loop: 75/300
+[10:21:34] gemma3:27b / vows_loop: 100/300
+[10:27:50] gemma3:27b / vows_loop: 125/300
+[10:34:02] gemma3:27b / vows_loop: 150/300
+[10:40:17] gemma3:27b / vows_loop: 175/300
+[10:46:35] gemma3:27b / vows_loop: 200/300
+[10:52:53] gemma3:27b / vows_loop: 225/300
+[10:59:12] gemma3:27b / vows_loop: 250/300
+[11:05:35] gemma3:27b / vows_loop: 275/300
+[11:11:58] gemma3:27b / vows_loop: 300/300
+[11:11:58] done.
+baseline         n= 300 acc=0.850 CI=[0.810, 0.890] parse=1.000 refuse=0.000
+generic_ethics   n= 300 acc=0.743 CI=[0.693, 0.793] parse=1.000 refuse=0.000
+virtue_ethics    n= 300 acc=0.843 CI=[0.800, 0.883] parse=0.993 refuse=0.000
+vows_loop        n= 300 acc=0.727 CI=[0.677, 0.777] parse=1.000 refuse=0.000
+vows_static      n= 300 acc=0.770 CI=[0.723, 0.817] parse=1.000 refuse=0.000
+McNemar vows_loop vs baseline: +11/-48 p=0.0000
+McNemar vows_loop vs generic_ethics: +30/-35 p=0.6201
+McNemar vows_loop vs virtue_ethics: +10/-45 p=0.0000
+McNemar vows_loop vs vows_static: +29/-42 p=0.1539

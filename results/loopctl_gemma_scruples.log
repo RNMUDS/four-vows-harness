@@ -1,0 +1,26 @@
+[22:08:42] loop-controls: model=gemma3:27b dataset=scruples -> scruples_gemma3_27b
+[22:14:15] gemma3:27b / reflect_loop: 25/300
+[22:19:28] gemma3:27b / reflect_loop: 50/300
+[22:25:00] gemma3:27b / reflect_loop: 75/300
+[22:30:22] gemma3:27b / reflect_loop: 100/300
+[22:35:44] gemma3:27b / reflect_loop: 125/300
+[22:41:07] gemma3:27b / reflect_loop: 150/300
+[22:46:21] gemma3:27b / reflect_loop: 175/300
+[22:51:43] gemma3:27b / reflect_loop: 200/300
+[22:57:05] gemma3:27b / reflect_loop: 225/300
+[23:02:27] gemma3:27b / reflect_loop: 250/300
+[23:07:44] gemma3:27b / reflect_loop: 275/300
+[23:12:51] gemma3:27b / reflect_loop: 300/300
+[23:18:42] gemma3:27b / virtue_loop: 25/300
+[23:24:44] gemma3:27b / virtue_loop: 50/300
+[23:30:41] gemma3:27b / virtue_loop: 75/300
+[23:36:51] gemma3:27b / virtue_loop: 100/300
+[23:43:20] gemma3:27b / virtue_loop: 125/300
+[23:49:21] gemma3:27b / virtue_loop: 150/300
+[23:55:16] gemma3:27b / virtue_loop: 175/300
+[00:01:20] gemma3:27b / virtue_loop: 200/300
+[00:07:42] gemma3:27b / virtue_loop: 225/300
+[00:13:55] gemma3:27b / virtue_loop: 250/300
+[00:19:50] gemma3:27b / virtue_loop: 275/300
+[00:25:52] gemma3:27b / virtue_loop: 300/300
+[00:25:52] done.

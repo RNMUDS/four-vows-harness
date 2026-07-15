@@ -1,0 +1,18 @@
+[11:45:51] exp: model=gpt-oss:20b dataset=cm_hard items=300
+[11:47:42] gpt-oss:20b / vows_loop: 150/300
+[11:51:28] gpt-oss:20b / vows_loop: 175/300
+[11:55:22] gpt-oss:20b / vows_loop: 200/300
+[11:59:09] gpt-oss:20b / vows_loop: 225/300
+[12:02:54] gpt-oss:20b / vows_loop: 250/300
+[12:06:51] gpt-oss:20b / vows_loop: 275/300
+[12:10:37] gpt-oss:20b / vows_loop: 300/300
+[12:10:37] done.
+baseline         n= 300 acc=0.893 CI=[0.857, 0.927] parse=1.000 refuse=0.000
+generic_ethics   n= 300 acc=0.887 CI=[0.850, 0.920] parse=1.000 refuse=0.000
+virtue_ethics    n= 300 acc=0.757 CI=[0.707, 0.803] parse=0.807 refuse=0.000
+vows_loop        n= 300 acc=0.817 CI=[0.770, 0.860] parse=1.000 refuse=0.000
+vows_static      n= 300 acc=0.880 CI=[0.843, 0.913] parse=1.000 refuse=0.000
+McNemar vows_loop vs baseline: +14/-37 p=0.0018
+McNemar vows_loop vs generic_ethics: +16/-37 p=0.0055
+McNemar vows_loop vs virtue_ethics: +41/-23 p=0.0328
+McNemar vows_loop vs vows_static: +12/-31 p=0.0054

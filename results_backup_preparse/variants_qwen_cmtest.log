@@ -1,0 +1,26 @@
+[17:56:51] variants: model=qwen3.6:latest dataset=cm_test -> pilot_qwen3.6_latest
+[17:57:10] qwen3.6:latest / vows_static_v2: 25/200
+[17:57:21] qwen3.6:latest / vows_static_v2: 50/200
+[17:57:33] qwen3.6:latest / vows_static_v2: 75/200
+[17:57:44] qwen3.6:latest / vows_static_v2: 100/200
+[17:57:56] qwen3.6:latest / vows_static_v2: 125/200
+[17:58:08] qwen3.6:latest / vows_static_v2: 150/200
+[17:58:19] qwen3.6:latest / vows_static_v2: 175/200
+[17:58:31] qwen3.6:latest / vows_static_v2: 200/200
+[17:58:42] qwen3.6:latest / vows_static_v3: 25/200
+[17:58:53] qwen3.6:latest / vows_static_v3: 50/200
+[17:59:05] qwen3.6:latest / vows_static_v3: 75/200
+[17:59:16] qwen3.6:latest / vows_static_v3: 100/200
+[17:59:27] qwen3.6:latest / vows_static_v3: 125/200
+[17:59:38] qwen3.6:latest / vows_static_v3: 150/200
+[17:59:49] qwen3.6:latest / vows_static_v3: 175/200
+[18:00:01] qwen3.6:latest / vows_static_v3: 200/200
+[18:02:46] qwen3.6:latest / vows_loop_v2: 25/200
+[18:05:35] qwen3.6:latest / vows_loop_v2: 50/200
+[18:08:26] qwen3.6:latest / vows_loop_v2: 75/200
+[18:11:16] qwen3.6:latest / vows_loop_v2: 100/200
+[18:14:10] qwen3.6:latest / vows_loop_v2: 125/200
+[18:16:56] qwen3.6:latest / vows_loop_v2: 150/200
+[18:19:37] qwen3.6:latest / vows_loop_v2: 175/200
+[18:22:25] qwen3.6:latest / vows_loop_v2: 200/200
+[18:22:25] done.

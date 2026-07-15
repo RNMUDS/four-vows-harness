@@ -1,0 +1,36 @@
+[11:45:49] exp: model=gemma3:27b dataset=mc_low items=300
+[11:46:21] gemma3:27b / virtue_ethics: 300/300
+[11:47:57] gemma3:27b / vows_static: 25/300
+[11:49:31] gemma3:27b / vows_static: 50/300
+[11:51:07] gemma3:27b / vows_static: 75/300
+[11:52:42] gemma3:27b / vows_static: 100/300
+[11:54:15] gemma3:27b / vows_static: 125/300
+[11:55:49] gemma3:27b / vows_static: 150/300
+[11:57:27] gemma3:27b / vows_static: 175/300
+[11:59:02] gemma3:27b / vows_static: 200/300
+[12:00:41] gemma3:27b / vows_static: 225/300
+[12:02:16] gemma3:27b / vows_static: 250/300
+[12:03:50] gemma3:27b / vows_static: 275/300
+[12:05:29] gemma3:27b / vows_static: 300/300
+[12:12:27] gemma3:27b / vows_loop: 25/300
+[12:19:04] gemma3:27b / vows_loop: 50/300
+[12:25:47] gemma3:27b / vows_loop: 75/300
+[12:32:24] gemma3:27b / vows_loop: 100/300
+[12:39:13] gemma3:27b / vows_loop: 125/300
+[12:45:57] gemma3:27b / vows_loop: 150/300
+[12:52:36] gemma3:27b / vows_loop: 175/300
+[12:59:17] gemma3:27b / vows_loop: 200/300
+[13:05:58] gemma3:27b / vows_loop: 225/300
+[13:12:39] gemma3:27b / vows_loop: 250/300
+[13:19:26] gemma3:27b / vows_loop: 275/300
+[13:26:00] gemma3:27b / vows_loop: 300/300
+[13:26:00] done.
+baseline         n= 300 acc=0.990 CI=[0.977, 1.000] parse=1.000 refuse=0.000
+generic_ethics   n= 300 acc=0.790 CI=[0.743, 0.837] parse=1.000 refuse=0.000
+virtue_ethics    n= 300 acc=0.890 CI=[0.853, 0.923] parse=1.000 refuse=0.000
+vows_loop        n= 300 acc=0.930 CI=[0.900, 0.957] parse=1.000 refuse=0.000
+vows_static      n= 300 acc=0.680 CI=[0.627, 0.730] parse=1.000 refuse=0.000
+McNemar vows_loop vs baseline: +2/-20 p=0.0001
+McNemar vows_loop vs generic_ethics: +57/-15 p=0.0000
+McNemar vows_loop vs virtue_ethics: +31/-19 p=0.1189
+McNemar vows_loop vs vows_static: +85/-10 p=0.0000
