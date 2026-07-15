@@ -3,49 +3,49 @@
 Dear Editors of AI and Ethics,
 
 Please consider our manuscript, "Vows, Not Posters: Value Content,
-Reflective Procedure, and What Moral Benchmarks Measure —
-Evidence from a Four Great Vows Harness for Open-Weight Language
-Models," for publication as an original research article.
+Reflective Procedure, and What Moral Benchmarks Measure — Evidence from
+a Four Great Vows Harness for Open-Weight Language Models," for
+publication as an original research article.
 
 Operators of open-weight language models can align their systems only
-through what they write into the context window, and they overwhelmingly
-write value statements. Our study asks whether values do their work as
-statements possessed or as practices performed, taking the distinction
-from the Four Great Bodhisattva Vows, which we implement both as a
-static system prompt and as an executable four-stage reflection
-procedure. Across four open-weight model families, four benchmarks, and
-27,352 judgments, with paraphrase and procedure-matched secular
-controls, we find a dissociation with direct consequences for how the
-field evaluates "ethical AI": value content steers the direction of
-moral judgment (every form of ethical attention shifted commonsense
-verdicts toward strictness, which US-crowd-labelled benchmarks record
-as error); the reflective procedure, not the value content, supplies
-whatever accuracy gain exists on real-life dilemmas; and static creeds
-never helped on any model or wording. We additionally document a
-methodological hazard we believe reviewers and readers will value:
-ethics prompts change response style enough that unvalidated answer
-extraction fabricated pseudo-effects larger than the true effects,
-which we audit and correct with a released, unit-tested extraction
-suite.
+through what they write into the context window, and they usually write
+value statements. The manuscript asks whether values do their work as
+statements possessed or as practices performed. We implement the Four
+Great Bodhisattva Vows both as a static system prompt and as a
+four-stage reflective procedure, and evaluate four open-weight model
+families on four benchmarks (27,352 judgments) against generic-ethics,
+virtue-ethics, paraphrase, and procedure-matched controls. Three
+results emerge. Sustained ethical deliberation of any framing shifted
+commonsense moral judgments toward strictness — a framework shift that
+crowd-labelled benchmarks record as error. No static value prompt
+produced a significant improvement on any model tested, whereas the
+reflective procedure raised accuracy on real-life dilemmas,
+significantly on one of three models, and was never significantly
+outperformed by any value-framed variant. And value prompts altered
+response style enough that unvalidated answer extraction produced
+spurious effects larger than the true ones, which we audit and correct
+with a released, unit-tested extraction suite.
 
-We believe the manuscript fits AI and Ethics' scope at the intersection
-of empirical evaluation and normative analysis: it is, to our
-knowledge, the first implemented and measured harness derived from a
-Buddhist liturgical formula, and it turns that implementation into an
-experimental probe of whose morality current benchmarks encode. All
-code, prompts, and per-item records (including raw model responses) are
-publicly available at https://github.com/RNMUDS/four-vows-harness, and
-every experiment reproduces on consumer hardware.
+We believe the manuscript suits AI and Ethics because it connects
+empirical evaluation with questions the journal's readership works on
+directly: how operators of locally deployed models should load values
+in practice, how the results bear on procedural versus substantive
+conceptions of alignment and on value pluralism, and whose morality
+current moral benchmarks encode. To our knowledge, no prior study has
+implemented and empirically evaluated a harness derived from a Buddhist
+liturgical formula, or compared a religious value harness against
+procedure-matched secular controls.
 
-This manuscript is not under consideration elsewhere. A preprint will
-be posted to arXiv. We have no conflicts of interest to declare. We
-disclose the use of an AI coding assistant for harness implementation,
-analysis scripting, and drafting under author direction, as detailed in
-the manuscript's declarations.
+All code, prompts, and per-item records (including raw model responses)
+are publicly available at https://github.com/RNMUDS/four-vows-harness,
+and every experiment reproduces on consumer hardware. The manuscript is
+not under consideration elsewhere. We have no conflicts of interest;
+the use of an AI coding assistant is disclosed in the manuscript's
+declarations.
 
 Thank you for your consideration.
 
 Sincerely,
 Ryota Nakamura
-Musashino University
+Faculty of Data Science, Musashino University
 ryota.nakamura@ds.musashino-u.ac.jp

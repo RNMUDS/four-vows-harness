@@ -1,6 +1,6 @@
-# 投稿手順書（arXiv → AI and Ethics）
+# 投稿手順書（AI and Ethics 先行投稿）
 
-## 1. arXiv（先に実施）
+## 1. arXiv（投稿しない方針に変更 — 参考として残置）
 
 アップロード物: `paper/arxiv/arxiv-upload.zip`（main.tex + preamble.tex。
 フォントは TeX Live 同梱の原ノ味に自動フォールバックし、arXiv 環境での
@@ -23,13 +23,14 @@
      https://github.com/RNMUDS/four-vows-harness"
 6. プレビュー確認 → Submit（公開は通常1〜2営業日後）
 
-## 2. AI and Ethics（arXiv ID 取得後すぐでOK）
+## 2. AI and Ethics（こちらを先に実施）
 
 1. https://link.springer.com/journal/43681 → Submit manuscript
    （Editorial Manager / Snapp）
 2. Article type: Original Research
-3. アップロード: paper/latex/main.pdf（審査用PDF）または
-   arxiv/main.tex 一式。初回投稿はPDFで十分
+3. アップロード: **paper/springer/vows-manuscript-latex.zip**
+   （図表込みの自己完結LaTeX一式。システムが査読用PDFに自動変換。
+   フォームの一部が自動入力される）
 4. Cover letter: paper/cover_letter.md を貼り付け
 5. Funding: 「No funding was received for conducting this study.」で
    確定済み。投稿画面でも "No funding" を選択
