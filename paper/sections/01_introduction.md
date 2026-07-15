@@ -48,7 +48,7 @@ four benchmarks, over 27,000 judgments.
 
 We asked whether the vows would make models more ethical. The results instead address three narrower questions:
 
-- **RQ1 (effect):** Value-loading moved judgment, but sustained moral
+- **RQ1 (effect):** Value-loading moved judgment, but sustained ethical
   deliberation of any framing, Buddhist or not, shifted commonsense
   verdicts toward strictness (static prompts did so model-dependently),
   and the shift is scored as *error* by benchmarks whose labels encode
@@ -79,8 +79,3 @@ audit showing that compliance and verdict-extraction artefacts can
 exceed true condition effects, with a validated open-source extraction
 suite. (5) Full release of code, prompts, and 27,000+ per-item records,
 reproducible on consumer hardware.
-
-The paper proceeds as follows. Section 2 situates the work; Section 3
-presents the vow harness; Sections 4-5 give methods and results;
-Section 6 discusses what steering, improving, and measuring each turn
-out to mean; Sections 7-8 conclude.

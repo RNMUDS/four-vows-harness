@@ -1,9 +1,5 @@
 # Abstract
 
-**Title:** Vows, Not Posters: Value Content, Reflective Procedure, and
-What Moral Benchmarks Measure — Evidence from a Four Great Vows
-Harness for Open-Weight Language Models
-
 Operators of open-weight language models align them the only way they
 can: by writing values into the context window. We ask whether values
 work better as statements possessed or as practices performed, taking
@@ -32,4 +28,4 @@ quality; crowd-labelled benchmarks of the kind we studied conflate the
 two. Code, prompts, and per-item records are released.
 
 **Keywords:** AI ethics; large language models; Buddhist ethics; moral
-benchmarks; value alignment; reflective reasoning
+benchmarks; value alignment; reflective procedure

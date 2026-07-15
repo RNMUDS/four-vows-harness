@@ -1,9 +1,5 @@
 # Abstract
 
-**Title:** Vows, Not Posters: Value Content, Reflective Procedure, and
-What Moral Benchmarks Measure — Evidence from a Four Great Vows
-Harness for Open-Weight Language Models
-
 Operators of open-weight language models align them the only way they
 can: by writing values into the context window. We ask whether values
 work better as statements possessed or as practices performed, taking
@@ -32,7 +28,7 @@ quality; crowd-labelled benchmarks of the kind we studied conflate the
 two. Code, prompts, and per-item records are released.
 
 **Keywords:** AI ethics; large language models; Buddhist ethics; moral
-benchmarks; value alignment; reflective reasoning
+benchmarks; value alignment; reflective procedure
 # 1. Introduction
 
 Capable language models can now be run locally from openly released
@@ -83,7 +79,7 @@ four benchmarks, over 27,000 judgments.
 
 We asked whether the vows would make models more ethical. The results instead address three narrower questions:
 
-- **RQ1 (effect):** Value-loading moved judgment, but sustained moral
+- **RQ1 (effect):** Value-loading moved judgment, but sustained ethical
   deliberation of any framing, Buddhist or not, shifted commonsense
   verdicts toward strictness (static prompts did so model-dependently),
   and the shift is scored as *error* by benchmarks whose labels encode
@@ -114,11 +110,6 @@ audit showing that compliance and verdict-extraction artefacts can
 exceed true condition effects, with a validated open-source extraction
 suite. (5) Full release of code, prompts, and 27,000+ per-item records,
 reproducible on consumer hardware.
-
-The paper proceeds as follows. Section 2 situates the work; Section 3
-presents the vow harness; Sections 4-5 give methods and results;
-Section 6 discusses what steering, improving, and measuring each turn
-out to mean; Sections 7-8 conclude.
 # 2. Background and Related Work
 
 ## 2.1 Steering moral judgment through prompts
@@ -660,7 +651,7 @@ alignment literature draws conceptually but rarely tests empirically:
 between aligning a system to a *substantive* set of values and
 equipping it with a *procedure* that can be endorsed from many value
 positions (Gabriel, 2020). Our results offer modest empirical support
-for the procedural side: static value loading produced no measurable
+for the procedural side: static value injection produced no measurable
 quality gain and imposed a direction that only some populations would
 endorse, while the procedure improved judgment without itself
 specifying whose morality supplies the weights. The results also bear
@@ -680,7 +671,7 @@ to improve judgment; across four models and every wording we tried, it
 never did. If judgment quality on contested cases matters, spend the
 tokens on a reflective procedure (stakeholders, self-audit, dissent,
 revise) and expect roughly fifty times the inference cost of a direct
-answer. Sustained moral deliberation can be expected to shift commonsense
+answer. Sustained ethical deliberation can be expected to shift commonsense
 judgments toward strictness, and static prompts may do so on some
 models; decide whether that is drift or alignment
 with reference to the population you serve rather than to a leaderboard.

@@ -1,0 +1,10 @@
+\usepackage{fontspec}
+\usepackage{xeCJK}
+% Harano Aji ships with TeX Live (arXiv-safe); Hiragino used if present.
+\IfFontExistsTF{Hiragino Mincho ProN}
+  {\setCJKmainfont{Hiragino Mincho ProN}}
+  {\setCJKmainfont{HaranoAjiMincho-Regular.otf}}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}\onehalfspacing

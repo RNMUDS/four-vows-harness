@@ -77,7 +77,7 @@ alignment literature draws conceptually but rarely tests empirically:
 between aligning a system to a *substantive* set of values and
 equipping it with a *procedure* that can be endorsed from many value
 positions (Gabriel, 2020). Our results offer modest empirical support
-for the procedural side: static value loading produced no measurable
+for the procedural side: static value injection produced no measurable
 quality gain and imposed a direction that only some populations would
 endorse, while the procedure improved judgment without itself
 specifying whose morality supplies the weights. The results also bear
@@ -97,7 +97,7 @@ to improve judgment; across four models and every wording we tried, it
 never did. If judgment quality on contested cases matters, spend the
 tokens on a reflective procedure (stakeholders, self-audit, dissent,
 revise) and expect roughly fifty times the inference cost of a direct
-answer. Sustained moral deliberation can be expected to shift commonsense
+answer. Sustained ethical deliberation can be expected to shift commonsense
 judgments toward strictness, and static prompts may do so on some
 models; decide whether that is drift or alignment
 with reference to the population you serve rather than to a leaderboard.

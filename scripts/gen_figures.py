@@ -24,7 +24,7 @@ BLUE, VERM, GRAY = "#0072B2", "#D55E00", "#444444"
 LABELS = {
     "baseline": "baseline", "generic_ethics": "generic ethics",
     "virtue_ethics": "virtue ethics", "vows_static": "vows (static)",
-    "vows_loop": "vows loop", "reflect_loop": "secular loop",
+    "vows_loop": "vows loop", "reflect_loop": "reflect loop",
     "virtue_loop": "virtue loop",
 }
 
@@ -52,14 +52,14 @@ def dotpanel(ax, rows, xlabel, baseline_x):
     ys = range(len(rows))
     ax.axvline(baseline_x, color=GRAY, lw=0.8, ls="--", zorder=1)
     for y, (label, val, lo, hi, color) in zip(ys, rows):
-        ax.plot([lo, hi], [y, y], color=color, lw=1.6, zorder=2,
+        ax.plot([lo, hi], [y, y], color=color, lw=1.8, zorder=2,
                 solid_capstyle="round")
-        ax.plot(val, y, "o", color=color, ms=6, zorder=3)
+        ax.plot(val, y, "o", color=color, ms=6.5, zorder=3)
     ax.set_yticks(list(ys))
-    ax.set_yticklabels([r[0] for r in rows], fontsize=8)
+    ax.set_yticklabels([r[0] for r in rows], fontsize=9.5)
     ax.invert_yaxis()
-    ax.set_xlabel(xlabel, fontsize=8)
-    ax.tick_params(axis="x", labelsize=7)
+    ax.set_xlabel(xlabel, fontsize=9.5)
+    ax.tick_params(axis="x", labelsize=8.5)
     ax.grid(axis="x", color="#dddddd", lw=0.5)
     for s in ("top", "right", "left"):
         ax.spines[s].set_visible(False)
@@ -94,7 +94,7 @@ def fig1() -> None:
                 base = val
             rows.append((LABELS[c], val, lo, hi, color_of(c)))
         dotpanel(ax, rows, "over-strictness", base)
-        ax.set_title(title, fontsize=9)
+        ax.set_title(title, fontsize=10.5)
         if ax is not axes[0]:
             ax.set_yticklabels([])
     fig.tight_layout()
@@ -123,7 +123,7 @@ def fig2() -> None:
                 base = val
             rows.append((LABELS[c], val, lo, hi, color_of(c)))
         dotpanel(ax, rows, "accuracy", base)
-        ax.set_title(title, fontsize=9)
+        ax.set_title(title, fontsize=10.5)
         if ax is not axes[0]:
             ax.set_yticklabels([])
     fig.tight_layout()
