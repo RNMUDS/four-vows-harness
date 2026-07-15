@@ -10,8 +10,7 @@ daily across East Asian Mahayana traditions:
 3. 法門無量誓願学 — Dharma gates are boundless; I vow to learn them all.
 4. 仏道無上誓願成 — The Buddha way is unsurpassable; I vow to attain it.
 
-Two properties make them a sharper instrument for this study than a list
-of precepts would be. First, they are *aspirational commitments rather
+Two features of the vows matter for this study. First, they are *aspirational commitments rather
 than rules*: each names an inexhaustible object (all beings, all
 delusions, all teachings, an unsurpassable way) and binds the practitioner to a direction rather than a boundary. Second, they already have the shape of a procedure.
 Read in order, they describe a movement of attention — outward to those

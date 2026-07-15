@@ -22,18 +22,15 @@ attend to all beings, to cut one's own delusions, to study boundless
 teachings, to keep walking an unsurpassable way. A creed one can paste;
 a vow must be executed.
 
-Three properties make the Four Great Vows a sharp instrument for this
-test rather than an arbitrary borrowing. They are ecologically real:
-among the most widely recited formulas in the Mahayana world, not a
+The choice of this formula is not arbitrary. The vows are ecologically
+real: among the most widely recited formulas in the Mahayana world, not a
 value set constructed for the experiment. They are decomposable: their
 four objects specify four distinct movements of attention (toward those
 affected, into one's own distortions, across other understandings,
 onward to a better answer) that a dialogue system can literally
-execute, one turn each. And they are aspirations rather than rules,
-which makes the contrast under study as sharp as it can be made: a rule
-invites checking, an aspiration demands practice, so if the difference
-between possessing values and practising them matters anywhere, it
-should matter here. Section 3 develops the mapping.
+execute, one turn each. And they are aspirations rather than rules: a rule invites checking, an
+aspiration demands practice, which is the contrast under study.
+Section 3 develops the mapping.
 
 This paper takes that distinction literally and tests it. We translate
 the four vows into two harnesses for open-weight models: a *static*
@@ -49,8 +46,7 @@ and reasoning procedure to be estimated separately. Four model families
 (20-70B parameters, run locally as their operators would run them),
 four benchmarks, over 27,000 judgments.
 
-We asked whether the vows would make models more ethical. The results
-are better organized as answers to three narrower questions:
+We asked whether the vows would make models more ethical. The results instead address three narrower questions:
 
 - **RQ1 (effect):** Value-loading moved judgment, but every form of
   ethical attention, Buddhist or not, shifted commonsense verdicts

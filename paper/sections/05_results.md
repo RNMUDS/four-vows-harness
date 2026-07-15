@@ -40,15 +40,14 @@ effect.
 
 ## 5.2 The procedure, not the creed, improves dilemma judgment (F2)
 
-SCRUPLES separates the conditions cleanly (baselines .630-.693, well off
+SCRUPLES separates the conditions (baselines .630-.693, well below
 ceiling). Three results establish the dissociation:
 
 **Static value injection never helps.** Accuracy under the static vow
 prompt fell significantly below baseline for Qwen (.547 vs .630,
 p = .011), numerically for GPT-OSS (.667 vs .693), and was flat for
 Gemma (.670 vs .680). Two independently reworded vow prompts landed
-below baseline on both models tested (Appendix B), so the absence of
-benefit is not a wording accident.
+below baseline on both models tested (Appendix B), so the absence of benefit is not specific to a particular wording.
 
 **The reflective procedure helps where anything does.** The vow loop was
 the top condition for GPT-OSS (.713, beating generic ethics, p = .007)

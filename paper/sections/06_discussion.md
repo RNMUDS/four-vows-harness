@@ -2,8 +2,7 @@
 
 ## 6.1 Content steers, procedure improves, and benchmarks conflate the two
 
-The dissociation at the centre of our results assigns different jobs to
-the two things a value harness contains. The *content* of the harness,
+Our results dissociate the two components of a value harness. The *content* of the harness,
 whether vows, virtues, or a bare instruction to be ethical, changes which
 morality the model enacts: attention to ethics of any flavour moved
 judgments toward strictness, and the items that flipped reflected the framing
@@ -12,24 +11,23 @@ inspecting one's own distortions, entertaining dissent, and revising,
 changes how well the model judges: on real-life dilemmas the secular
 form of the loop scored highest on two of three models (significantly
 above baseline on one) and level on the third, while no value framing
-ever beat it. To be explicit: our data do not show that Buddhist
-content improves moral judgment. They show that a reflective procedure
-can, whatever it is practised in the name of; the vows' distinctive
-contribution is directional, and it is the benchmarks' reaction to that
-direction that constitutes the paper's second finding.
+ever beat it. Our data therefore do not show that Buddhist content improves moral
+judgment; they show that a reflective procedure can, regardless of the
+framing under which it is executed. The vows' contribution is
+directional, and the benchmarks' response to that direction constitutes
+the second finding.
 
 A single-label accuracy score cannot see this structure. It records
 the strictness shift as error (because its labels encode one
 annotator population's leniency), records the deliberative gain as
-improvement, and returns their sum. We stress the scope of this claim:
-it is an observation about how the three crowd-labelled benchmarks we
-studied respond to framework shifts, not an argument that such
-benchmarks are useless. For screening clear harms — where our F3
-results show value-loading changes nothing — a single label is exactly
-the right instrument. The hazard is confined to comparative claims
-about *values*, where a difference in framework and a difference in
-competence arrive as the same number. Two of our numbers make the point
-concretely: the same vow loop that loses two to eight points against US
+improvement, and returns their sum. The scope of this claim is limited: it concerns how the three
+crowd-labelled benchmarks studied here respond to framework shifts,
+not the usefulness of such benchmarks in general. For screening
+clearly harmful behaviour, where value-loading changed nothing
+(Section 5.3), a single label is an appropriate instrument. The
+difficulty is confined to comparative claims about values, where a
+difference in framework and a difference in competence arrive as the
+same number. Two results illustrate the point: the same vow loop that loses two to eight points against US
 crowd labels on ETHICS commonsense is among the conditions that best
 match the SCRUPLES annotator majority on consensus items. Whether the
 vows made the model worse or better is not a property of the model; it
@@ -54,9 +52,8 @@ even with no values named at all.
 
 ## 6.3 What may and may not be claimed about East and West
 
-These results might be summarized as showing that "Buddhist AI
-disagrees with Western benchmarks." Two considerations argue against
-that reading. First, the
+These results might be read as showing that "Buddhist AI disagrees
+with Western benchmarks." That reading is too strong, for two reasons. First, the
 loop-content controls showed that the aggregate strictness shift follows
 ethical attention generally, not Buddhist content specifically; the
 doctrinal signature lives in which items flip, which is qualitative
@@ -68,36 +65,34 @@ Showing genuine cultural-framework divergence would require the other
 anchor: labels from annotators within Buddhist cultural spheres (for
 example the Japanese-annotated JCommonsenseMorality (Takeshita et al., 2023)), and
 a test of whether vow-conditioned judgments track them better than
-baseline. We regard that as the natural next study, and the present
-results as establishing its motivating phenomenon: value-loading moves
+baseline. That comparison is a direct extension of this work; the present
+results establish its motivating phenomenon: value-loading moves
 models in directions that single-label benchmarks of this kind can only
 register as error.
 
 ## 6.4 Implications for value alignment
 
-The content/procedure dissociation maps onto a distinction that the
+The content/procedure dissociation corresponds to a distinction the
 alignment literature draws conceptually but rarely tests empirically:
-between aligning a system to some *substantive* set of values and
-equipping it with a *procedure* whose fairness or thoroughness can be
-endorsed from many value positions (Gabriel, 2020). Our results offer modest empirical support for the procedural side. Substantive loading, in
-the static form available to every operator today, produced no measurable quality
-gain and imposed a direction that only some populations would
-endorse; the procedure improved judgment while remaining, in itself,
-neutral about which morality supplies the stakeholders' weights. This
-is also where the results touch pluralistic alignment (Sorensen et al.,
-2024): a model that enumerates affected parties, audits itself, and
-entertains dissent before answering is a plausible substrate for
-Overton-style pluralism — it generates the perspectives a pluralistic
-answer must survey — whereas a model with a creed in its system prompt
-has been moved to one point in value space. If alignment must
-serve many moralities at once, our data suggest that the more effective lever is the procedure a
-model executes before answering rather than the values it is
-instructed to hold.
+between aligning a system to a *substantive* set of values and
+equipping it with a *procedure* that can be endorsed from many value
+positions (Gabriel, 2020). Our results offer modest empirical support
+for the procedural side: static value loading produced no measurable
+quality gain and imposed a direction that only some populations would
+endorse, while the procedure improved judgment without itself
+specifying whose morality supplies the weights. The results also bear
+on pluralistic alignment (Sorensen et al., 2024). A model that
+enumerates affected parties, audits itself, and entertains dissent
+before answering generates the perspectives a pluralistic response
+must survey; a model with values fixed in its system prompt occupies a
+single point in value space. Where alignment must serve multiple
+moralities, the procedure a model executes appears to be the more
+effective lever than the values it is instructed to hold.
 
 ## 6.5 Practical guidance
 
-For practitioners who value-load open-weight models, the results reduce
-to four rules of thumb. Stating values in the system prompt should not, by itself, be expected
+For practitioners who value-load open-weight models, the results
+support four recommendations. Stating values in the system prompt should not, by itself, be expected
 to improve judgment; across four models and every wording we tried, it
 never did. If judgment quality on contested cases matters, spend the
 tokens on a reflective procedure (stakeholders, self-audit, dissent,
